@@ -39,8 +39,10 @@
 
     "CTS_SINK_CLUSTERING_ENABLE": true,
 
+    "PAD_BONDPAD_NAME": "bondpad_70x70_novias",
+
     "IGNORE_DISCONNECTED_MODULES": [
-        "bondpad_70x70"
+        "bondpad_70x70_novias"
     ],
 
     "PRIMARY_GDSII_STREAMOUT_TOOL": "klayout",
@@ -49,7 +51,7 @@
     "MAGIC_EXT_UNIQUE": "notopports",
 
     "MAGIC_EXT_ABSTRACT_CELLS": [
-        "bondpad_70x70",
+        "bondpad_70x70_novias",
         "sg13g2_IOPadInOut30mA",
         "sg13g2_IOPadIn",
         "sg13g2_IOPadOut30mA",
@@ -65,8 +67,8 @@
     "VDD_NETS": ["VDD"],
     "GND_NETS": ["VSS"],
 
-    "EXTRA_GDS": "dir::bondpad/bondpad_70x70.gds",
-    "EXTRA_LEFS": "dir::bondpad/bondpad_70x70.lef",
+    "EXTRA_GDS": "dir::bondpad_70x70_novias/gds/bondpad_70x70_novias.gds",
+    "EXTRA_LEFS": "dir::bondpad_70x70_novias/lef/bondpad_70x70_novias.lef",
 
     "PAD_WEST": [
         "sg13g2_IOPadVdd_west",
