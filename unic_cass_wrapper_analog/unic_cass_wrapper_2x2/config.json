@@ -1,0 +1,137 @@
+{
+    "meta": {
+        "version": 3,
+        "flow": "Chip",
+        "substituting_steps": {
+            "KLayout.DRC": null,
+            "Magic.DRC": null,
+            "KLayout.Filler": null,
+            "KLayout.Density": null,
+            "Checker.KLayoutDensity": null,
+
+            "KLayout.Antenna": null,
+            "Checker.KLayoutAntenna": null,
+            
+            "KLayout.SealRing": null,
+            "Checker.IllegalOverlap": null
+        }
+    },
+
+    "DESIGN_NAME": "user_project_wrapper",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": "io_clock_PAD",
+    "CLOCK_NET": "io_clock_PAD/p2c",
+    "VERILOG_FILES": [
+        "dir::src/user_project_wrapper.sv"
+    ],
+
+    "FP_SIZING": "absolute",
+    "DIE_AREA": [   0.00,   0.00, 2000, 2000],
+    "CORE_AREA": [358.00, 358.00, 1642, 1642],
+    "PDN_CORE_RING": true,
+    "PDN_CORE_RING_CONNECT_TO_PADS": true,
+    "PDN_CORE_RING_VWIDTH": 15,
+    "PDN_CORE_RING_HWIDTH": 15,
+    "PDN_VPITCH": 50,
+    "PDN_HPITCH": 50,
+    "PDN_VWIDTH": 3.5,
+    "PDN_HWIDTH": 3.5,
+
+    "CTS_SINK_CLUSTERING_ENABLE": true,
+
+    "PAD_BONDPAD_NAME": "bondpad_70x70_novias",
+
+    "IGNORE_DISCONNECTED_MODULES": [
+        "bondpad_70x70_novias"
+    ],
+
+    "PRIMARY_GDSII_STREAMOUT_TOOL": "klayout",
+    "KLAYOUT_CONFLICT_RESOLUTION": "SkipNewCell",
+    "MAGIC_EXT_USE_GDS": false,
+    "MAGIC_EXT_UNIQUE": "notopports",
+
+    "MAGIC_EXT_ABSTRACT_CELLS": [
+        "bondpad_70x70_novias",
+        "sg13g2_IOPadInOut30mA",
+        "sg13g2_IOPadIn",
+        "sg13g2_IOPadOut30mA",
+        "sg13g2_IOPadIOVdd",
+        "sg13g2_IOPadIOVss",
+        "sg13g2_IOPadVss",
+        "sg13g2_IOPadVdd"
+    ],
+
+    "USE_SLANG": true,
+    "GRT_ALLOW_CONGESTION": true,
+
+    "VDD_NETS": ["VDD"],
+    "GND_NETS": ["VSS"],
+
+    "EXTRA_GDS": "dir::bondpad_70x70_novias/gds/bondpad_70x70_novias.gds",
+    "EXTRA_LEFS": "dir::bondpad_70x70_novias/lef/bondpad_70x70_novias.lef",
+
+    "PAD_WEST": [
+        "sg13g2_IOPadVdd_west",
+        "sg13g2_IOPadVss_west",
+        "sg13g2_IOPad_analog_io\\[0\\].io",
+        "sg13g2_IOPad_analog_io\\[1\\].io",
+        "sg13g2_IOPad_analog_io\\[2\\].io",
+        "sg13g2_IOPad_analog_io\\[3\\].io",
+        "sg13g2_IOPad_analog_io\\[4\\].io",
+        "sg13g2_IOPad_analog_io\\[5\\].io",
+        "sg13g2_IOPad_analog_io\\[6\\].io",
+        "sg13g2_IOPad_analog_io\\[7\\].io",
+        "sg13g2_IOPad_analog_io\\[8\\].io",
+        "sg13g2_IOPadIOVdd_west",
+        "sg13g2_IOPadIOVss_west"
+    ],
+
+    "PAD_SOUTH": [
+        "sg13g2_IOPadVdd_south",
+        "sg13g2_IOPadVss_south",
+        "sg13g2_IOPad_analog_io\\[9\\].io",
+        "sg13g2_IOPad_analog_io\\[10\\].io",
+        "sg13g2_IOPad_analog_io\\[11\\].io",
+        "sg13g2_IOPad_analog_io\\[12\\].io",
+        "sg13g2_IOPad_analog_io\\[13\\].io",
+        "sg13g2_IOPad_analog_io\\[14\\].io",
+        "sg13g2_IOPad_analog_io\\[15\\].io",
+        "sg13g2_IOPad_analog_io\\[16\\].io",
+        "sg13g2_IOPad_analog_io\\[17\\].io",
+        "sg13g2_IOPadIOVdd_south",
+        "sg13g2_IOPadIOVss_south"
+    ],
+
+    "PAD_EAST": [
+        "sg13g2_IOPadVdd_east",
+        "sg13g2_IOPadVss_east",
+        "sg13g2_IOPad_analog_io\\[18\\].io",
+        "sg13g2_IOPad_analog_io\\[19\\].io",
+        "sg13g2_IOPad_analog_io\\[20\\].io",
+        "sg13g2_IOPad_analog_io\\[21\\].io",
+        "sg13g2_IOPad_analog_io\\[22\\].io",
+        "sg13g2_IOPad_analog_io\\[23\\].io",
+        "sg13g2_IOPad_analog_io\\[24\\].io",
+        "sg13g2_IOPad_analog_io\\[25\\].io",
+        "sg13g2_IOPad_analog_io\\[26\\].io",
+        "sg13g2_IOPadIOVdd_east",
+        "sg13g2_IOPadIOVss_east"
+    ],
+
+    "PAD_NORTH": [
+        "sg13g2_IOPadVdd_north",
+        "sg13g2_IOPadVss_north",
+        "sg13g2_IOPad_analog_io\\[27\\].io",
+        "sg13g2_IOPad_analog_io\\[28\\].io",
+        "sg13g2_IOPad_analog_io\\[29\\].io",
+        "sg13g2_IOPad_analog_io\\[30\\].io",
+        "sg13g2_IOPad_analog_io\\[31\\].io",
+        "sg13g2_IOPad_analog_io\\[32\\].io",
+        "sg13g2_IOPad_analog_io\\[33\\].io",
+        "sg13g2_IOPad_analog_io\\[34\\].io",
+        "sg13g2_IOPad_analog_io\\[35\\].io",
+        "sg13g2_IOPadIOVdd_north",
+        "sg13g2_IOPadIOVss_north"
+    ]
+
+}

@@ -1,0 +1,589 @@
+* NGSPICE file created from user_project_wrapper.ext - technology: ihp-sg13g2
+
+* Black-box entry subcircuit for sg13g2_Filler1000 abstract view
+.subckt sg13g2_Filler1000 iovdd iovss vdd vss
+.ends
+
+* Black-box entry subcircuit for bondpad_70x70_novias abstract view
+.subckt bondpad_70x70_novias pad
+.ends
+
+* Black-box entry subcircuit for sg13g2_Filler4000 abstract view
+.subckt sg13g2_Filler4000 iovdd iovss vdd vss
+.ends
+
+* Black-box entry subcircuit for sg13g2_IOPadAnalog abstract view
+.subckt sg13g2_IOPadAnalog iovdd iovss pad padres vdd vss
+.ends
+
+* Black-box entry subcircuit for sg13g2_IOPadIOVdd abstract view
+.subckt sg13g2_IOPadIOVdd iovdd iovss vdd vss
+.ends
+
+* Black-box entry subcircuit for sg13g2_Filler200 abstract view
+.subckt sg13g2_Filler200 iovdd iovss vdd vss
+.ends
+
+* Black-box entry subcircuit for sg13g2_IOPadVdd abstract view
+.subckt sg13g2_IOPadVdd iovdd iovss vdd vss
+.ends
+
+* Black-box entry subcircuit for sg13g2_IOPadIOVss abstract view
+.subckt sg13g2_IOPadIOVss iovdd iovss vdd vss
+.ends
+
+* Black-box entry subcircuit for sg13g2_IOPadVss abstract view
+.subckt sg13g2_IOPadVss iovdd iovss vdd vss
+.ends
+
+* Black-box entry subcircuit for sg13g2_Corner abstract view
+.subckt sg13g2_Corner iovdd iovss vdd vss
+.ends
+
+* Black-box entry subcircuit for sg13g2_Filler400 abstract view
+.subckt sg13g2_Filler400 iovdd iovss vdd vss
+.ends
+
+.subckt user_project_wrapper IOVDD IOVSS VDD VSS analog_io[0] analog_io[10] analog_io[11]
++ analog_io[12] analog_io[13] analog_io[14] analog_io[15] analog_io[16] analog_io[17]
++ analog_io[18] analog_io[19] analog_io[1] analog_io[20] analog_io[21] analog_io[22]
++ analog_io[23] analog_io[24] analog_io[25] analog_io[26] analog_io[27] analog_io[28]
++ analog_io[29] analog_io[2] analog_io[30] analog_io[31] analog_io[32] analog_io[33]
++ analog_io[34] analog_io[35] analog_io[36] analog_io[37] analog_io[38] analog_io[39]
++ analog_io[3] analog_io[40] analog_io[41] analog_io[42] analog_io[43] analog_io[44]
++ analog_io[45] analog_io[46] analog_io[47] analog_io[48] analog_io[49] analog_io[4]
++ analog_io[50] analog_io[51] analog_io[52] analog_io[53] analog_io[54] analog_io[55]
++ analog_io[56] analog_io[57] analog_io[58] analog_io[59] analog_io[5] analog_io[60]
++ analog_io[61] analog_io[62] analog_io[63] analog_io[64] analog_io[65] analog_io[66]
++ analog_io[67] analog_io[68] analog_io[69] analog_io[6] analog_io[70] analog_io[71]
++ analog_io[7] analog_io[8] analog_io[9]
+XIO_FILL_IO_NORTH_1_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[12\].io analog_io[12] bondpad_70x70_novias
+XIO_BOND_sg13g2_IOPad_analog_io\[35\].io analog_io[35] bondpad_70x70_novias
+XIO_BOND_sg13g2_IOPad_analog_io\[58\].io analog_io[58] bondpad_70x70_novias
+XIO_BOND_sg13g2_IOPad_analog_io\[2\].io analog_io[2] bondpad_70x70_novias
+XIO_FILL_IO_SOUTH_18_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_SOUTH_3_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_NORTH_4_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+Xsg13g2_IOPad_analog_io\[29\].io IOVDD IOVSS analog_io[29] sg13g2_IOPad_analog_io\[29\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+Xsg13g2_IOPadIOVdd_south IOVDD IOVSS VDD VSS sg13g2_IOPadIOVdd
+Xsg13g2_IOPad_analog_io\[2\].io IOVDD IOVSS analog_io[2] sg13g2_IOPad_analog_io\[2\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_WEST_21_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_NORTH_0_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_NORTH_7_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_SOUTH_1_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[25\].io analog_io[25] bondpad_70x70_novias
+XIO_FILL_IO_EAST_12_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_BOND_sg13g2_IOPad_analog_io\[48\].io analog_io[48] bondpad_70x70_novias
+Xsg13g2_IOPad_analog_io\[62\].io IOVDD IOVSS analog_io[62] sg13g2_IOPad_analog_io\[62\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_WEST_1_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_SOUTH_4_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_WEST_14_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_WEST_11_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+Xsg13g2_IOPad_analog_io\[19\].io IOVDD IOVSS analog_io[19] sg13g2_IOPad_analog_io\[19\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_WEST_4_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_NORTH_16_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_WEST_2_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_SOUTH_7_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[15\].io analog_io[15] bondpad_70x70_novias
+XIO_BOND_sg13g2_IOPad_analog_io\[38\].io analog_io[38] bondpad_70x70_novias
+XIO_FILL_IO_WEST_14_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_WEST_7_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+Xsg13g2_IOPad_analog_io\[52\].io IOVDD IOVSS analog_io[52] sg13g2_IOPad_analog_io\[52\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_0_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_NORTH_10_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[5\].io analog_io[5] bondpad_70x70_novias
+XIO_FILL_IO_WEST_22_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[71\].io analog_io[71] bondpad_70x70_novias
+XIO_BOND_sg13g2_IOPadVss_west VSS bondpad_70x70_novias
+XIO_FILL_IO_WEST_17_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_NORTH_13_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_SOUTH_16_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_SOUTH_10_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_SOUTH_1_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPad_analog_io\[5\].io IOVDD IOVSS analog_io[5] sg13g2_IOPad_analog_io\[5\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_BOND_sg13g2_IOPad_analog_io\[28\].io analog_io[28] bondpad_70x70_novias
+Xsg13g2_IOPad_analog_io\[42\].io IOVDD IOVSS analog_io[42] sg13g2_IOPad_analog_io\[42\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_NORTH_21_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+Xsg13g2_IOPad_analog_io\[65\].io IOVDD IOVSS analog_io[65] sg13g2_IOPad_analog_io\[65\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_SOUTH_13_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_NORTH_16_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_NORTH_21_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_EAST_10_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_EAST_10_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[61\].io analog_io[61] bondpad_70x70_novias
+XIO_FILL_IO_SOUTH_21_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_EAST_2_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_NORTH_1_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_NORTH_9_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_NORTH_19_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_SOUTH_16_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_WEST_12_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_BOND_sg13g2_IOPad_analog_io\[18\].io analog_io[18] bondpad_70x70_novias
+XIO_FILL_IO_EAST_13_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+Xsg13g2_IOPad_analog_io\[32\].io IOVDD IOVSS analog_io[32] sg13g2_IOPad_analog_io\[32\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_NORTH_14_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPadVdd_south IOVDD IOVSS VDD VSS sg13g2_IOPadVdd
+XIO_FILL_IO_WEST_0_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_EAST_5_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_NORTH_4_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+Xsg13g2_IOPad_analog_io\[55\].io IOVDD IOVSS analog_io[55] sg13g2_IOPad_analog_io\[55\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_SOUTH_19_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[8\].io analog_io[8] bondpad_70x70_novias
+XIO_FILL_IO_EAST_21_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_SOUTH_21_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_BOND_sg13g2_IOPadVss_east VSS bondpad_70x70_novias
+XIO_FILL_IO_EAST_16_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[51\].io analog_io[51] bondpad_70x70_novias
+Xsg13g2_IOPadIOVss_south IOVDD IOVSS VDD VSS sg13g2_IOPadIOVss
+XIO_FILL_IO_EAST_8_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_NORTH_7_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_SOUTH_1_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+Xsg13g2_IOPadVss_west IOVDD IOVSS VDD VSS sg13g2_IOPadVss
+Xsg13g2_IOPad_analog_io\[8\].io IOVDD IOVSS analog_io[8] sg13g2_IOPad_analog_io\[8\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+Xsg13g2_IOPad_analog_io\[22\].io IOVDD IOVSS analog_io[22] sg13g2_IOPad_analog_io\[22\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_19_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_EAST_9_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPad_analog_io\[45\].io IOVDD IOVSS analog_io[45] sg13g2_IOPad_analog_io\[45\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_CORNER_NORTH_EAST_INST IOVDD IOVSS VDD VSS sg13g2_Corner
+XIO_FILL_IO_SOUTH_14_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPadIOVdd_north IOVDD IOVSS VDD VSS sg13g2_IOPadIOVdd
+Xsg13g2_IOPad_analog_io\[68\].io IOVDD IOVSS analog_io[68] sg13g2_IOPad_analog_io\[68\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_SOUTH_4_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_WEST_11_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPad_analog_io\[41\].io analog_io[41] bondpad_70x70_novias
+XIO_BOND_sg13g2_IOPad_analog_io\[64\].io analog_io[64] bondpad_70x70_novias
+XIO_FILL_IO_SOUTH_7_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_WEST_14_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+Xsg13g2_IOPad_analog_io\[12\].io IOVDD IOVSS analog_io[12] sg13g2_IOPad_analog_io\[12\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+Xsg13g2_IOPad_analog_io\[35\].io IOVDD IOVSS analog_io[35] sg13g2_IOPad_analog_io\[35\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_NORTH_7_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_NORTH_10_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_EAST_19_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPad_analog_io\[58\].io IOVDD IOVSS analog_io[58] sg13g2_IOPad_analog_io\[58\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_WEST_22_25 IOVDD IOVSS VDD VSS sg13g2_Filler400
+XIO_BOND_sg13g2_IOPad_analog_io\[31\].io analog_io[31] bondpad_70x70_novias
+XIO_FILL_IO_WEST_10_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_WEST_17_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPad_analog_io\[54\].io analog_io[54] bondpad_70x70_novias
+XIO_FILL_IO_NORTH_12_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_NORTH_13_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_SOUTH_10_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+Xsg13g2_IOPadVss_east IOVDD IOVSS VDD VSS sg13g2_IOPadVss
+XIO_FILL_IO_WEST_2_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_NORTH_21_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_WEST_9_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_SOUTH_13_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+Xsg13g2_IOPad_analog_io\[25\].io IOVDD IOVSS analog_io[25] sg13g2_IOPad_analog_io\[25\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_NORTH_16_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPadVdd_west VDD bondpad_70x70_novias
+XIO_FILL_IO_WEST_5_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+Xsg13g2_IOPad_analog_io\[48\].io IOVDD IOVSS analog_io[48] sg13g2_IOPad_analog_io\[48\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_10_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPad_analog_io\[21\].io analog_io[21] bondpad_70x70_novias
+XIO_FILL_IO_SOUTH_21_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_EAST_2_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_EAST_7_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_BOND_sg13g2_IOPad_analog_io\[44\].io analog_io[44] bondpad_70x70_novias
+XIO_CORNER_SOUTH_EAST_INST IOVDD IOVSS VDD VSS sg13g2_Corner
+XIO_BOND_sg13g2_IOPad_analog_io\[67\].io analog_io[67] bondpad_70x70_novias
+XIO_FILL_IO_NORTH_19_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_SOUTH_16_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_SOUTH_12_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_WEST_8_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_EAST_13_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_EAST_5_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_SOUTH_8_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPadVss_south IOVDD IOVSS VDD VSS sg13g2_IOPadVss
+XIO_FILL_IO_SOUTH_19_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+Xsg13g2_IOPad_analog_io\[15\].io IOVDD IOVSS analog_io[15] sg13g2_IOPad_analog_io\[15\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+Xsg13g2_IOPad_analog_io\[38\].io IOVDD IOVSS analog_io[38] sg13g2_IOPad_analog_io\[38\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_21_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_CORNER_NORTH_WEST_INST IOVDD IOVSS VDD VSS sg13g2_Corner
+XIO_FILL_IO_EAST_16_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPad_analog_io\[11\].io analog_io[11] bondpad_70x70_novias
+XIO_BOND_sg13g2_IOPad_analog_io\[34\].io analog_io[34] bondpad_70x70_novias
+XIO_FILL_IO_EAST_8_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_NORTH_5_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_BOND_sg13g2_IOPad_analog_io\[57\].io analog_io[57] bondpad_70x70_novias
+Xsg13g2_IOPad_analog_io\[71\].io IOVDD IOVSS analog_io[71] sg13g2_IOPad_analog_io\[71\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_17_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPadVdd_north IOVDD IOVSS VDD VSS sg13g2_IOPadIOVdd
+XIO_BOND_sg13g2_IOPad_analog_io\[1\].io analog_io[1] bondpad_70x70_novias
+XIO_FILL_IO_EAST_19_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPadVdd_east VDD bondpad_70x70_novias
+XIO_FILL_IO_NORTH_10_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPadIOVss_north IOVDD IOVSS VDD VSS sg13g2_IOPadIOVss
+Xsg13g2_IOPad_analog_io\[28\].io IOVDD IOVSS analog_io[28] sg13g2_IOPad_analog_io\[28\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_WEST_19_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_NORTH_2_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+Xsg13g2_IOPadVdd_west IOVDD IOVSS VDD VSS sg13g2_IOPadVdd
+Xsg13g2_IOPad_analog_io\[1\].io IOVDD IOVSS analog_io[1] sg13g2_IOPad_analog_io\[1\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_WEST_7_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_BOND_sg13g2_IOPad_analog_io\[24\].io analog_io[24] bondpad_70x70_novias
+XIO_BOND_sg13g2_IOPad_analog_io\[47\].io analog_io[47] bondpad_70x70_novias
+Xsg13g2_IOPad_analog_io\[61\].io IOVDD IOVSS analog_io[61] sg13g2_IOPad_analog_io\[61\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_NORTH_5_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_EAST_5_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_SOUTH_10_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPad_analog_io\[18\].io IOVDD IOVSS analog_io[18] sg13g2_IOPad_analog_io\[18\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_NORTH_8_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_SOUTH_2_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_EAST_22_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_SOUTH_6_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_WEST_2_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPad_analog_io\[14\].io analog_io[14] bondpad_70x70_novias
+XIO_BOND_sg13g2_IOPad_analog_io\[37\].io analog_io[37] bondpad_70x70_novias
+XIO_CORNER_SOUTH_WEST_INST IOVDD IOVSS VDD VSS sg13g2_Corner
+Xsg13g2_IOPad_analog_io\[51\].io IOVDD IOVSS analog_io[51] sg13g2_IOPad_analog_io\[51\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_SOUTH_5_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[4\].io analog_io[4] bondpad_70x70_novias
+XIO_FILL_IO_WEST_12_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_WEST_5_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPad_analog_io\[70\].io analog_io[70] bondpad_70x70_novias
+XIO_FILL_IO_NORTH_3_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPadVdd_east IOVDD IOVSS VDD VSS sg13g2_IOPadVdd
+XIO_FILL_IO_EAST_15_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_SOUTH_8_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+Xsg13g2_IOPad_analog_io\[4\].io IOVDD IOVSS analog_io[4] sg13g2_IOPad_analog_io\[4\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_WEST_20_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_WEST_15_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_WEST_8_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPad_analog_io\[27\].io analog_io[27] bondpad_70x70_novias
+Xsg13g2_IOPad_analog_io\[41\].io IOVDD IOVSS analog_io[41] sg13g2_IOPad_analog_io\[41\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_NORTH_11_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+Xsg13g2_IOPad_analog_io\[64\].io IOVDD IOVSS analog_io[64] sg13g2_IOPad_analog_io\[64\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_WEST_17_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_NORTH_19_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_WEST_5_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_WEST_18_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[60\].io analog_io[60] bondpad_70x70_novias
+XIO_FILL_IO_SOUTH_11_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_NORTH_14_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_EAST_3_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_NORTH_22_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_EAST_0_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[17\].io analog_io[17] bondpad_70x70_novias
+Xsg13g2_IOPad_analog_io\[31\].io IOVDD IOVSS analog_io[31] sg13g2_IOPad_analog_io\[31\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_SOUTH_14_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+Xsg13g2_IOPadVss_north IOVDD IOVSS VDD VSS sg13g2_IOPadIOVss
+XIO_FILL_IO_NORTH_17_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+Xsg13g2_IOPad_analog_io\[54\].io IOVDD IOVSS analog_io[54] sg13g2_IOPad_analog_io\[54\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_20_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_EAST_11_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_SOUTH_4_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_SOUTH_19_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_BOND_sg13g2_IOPad_analog_io\[7\].io analog_io[7] bondpad_70x70_novias
+XIO_FILL_IO_SOUTH_22_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_EAST_3_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[50\].io analog_io[50] bondpad_70x70_novias
+XIO_FILL_IO_NORTH_2_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_SOUTH_17_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_WEST_22_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPad_analog_io\[7\].io IOVDD IOVSS analog_io[7] sg13g2_IOPad_analog_io\[7\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_14_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_NORTH_1_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPad_analog_io\[21\].io IOVDD IOVSS analog_io[21] sg13g2_IOPad_analog_io\[21\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_6_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_EAST_13_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_NORTH_5_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+Xsg13g2_IOPad_analog_io\[44\].io IOVDD IOVSS analog_io[44] sg13g2_IOPad_analog_io\[44\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+Xsg13g2_IOPad_analog_io\[67\].io IOVDD IOVSS analog_io[67] sg13g2_IOPad_analog_io\[67\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_22_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_EAST_17_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[40\].io analog_io[40] bondpad_70x70_novias
+XIO_FILL_IO_EAST_9_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[63\].io analog_io[63] bondpad_70x70_novias
+XIO_FILL_IO_WEST_15_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_NORTH_8_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_SOUTH_2_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_NORTH_17_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_BOND_sg13g2_IOPadIOVdd_south IOVDD bondpad_70x70_novias
+XIO_FILL_IO_WEST_3_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPad_analog_io\[11\].io IOVDD IOVSS analog_io[11] sg13g2_IOPad_analog_io\[11\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_SOUTH_5_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+Xsg13g2_IOPad_analog_io\[34\].io IOVDD IOVSS analog_io[34] sg13g2_IOPad_analog_io\[34\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_WEST_12_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+Xsg13g2_IOPad_analog_io\[57\].io IOVDD IOVSS analog_io[57] sg13g2_IOPad_analog_io\[57\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_1_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_BOND_sg13g2_IOPad_analog_io\[30\].io analog_io[30] bondpad_70x70_novias
+XIO_BOND_sg13g2_IOPad_analog_io\[53\].io analog_io[53] bondpad_70x70_novias
+XIO_FILL_IO_SOUTH_8_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_WEST_20_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_WEST_15_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_SOUTH_17_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_SOUTH_2_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_NORTH_11_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPadVdd_south VDD bondpad_70x70_novias
+XIO_FILL_IO_WEST_0_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+Xsg13g2_IOPad_analog_io\[24\].io IOVDD IOVSS analog_io[24] sg13g2_IOPad_analog_io\[24\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+Xsg13g2_IOPad_analog_io\[47\].io IOVDD IOVSS analog_io[47] sg13g2_IOPad_analog_io\[47\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_WEST_20_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_WEST_18_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_NORTH_22_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_SOUTH_11_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPad_analog_io\[20\].io analog_io[20] bondpad_70x70_novias
+XIO_FILL_IO_NORTH_14_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_WEST_3_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[43\].io analog_io[43] bondpad_70x70_novias
+XIO_FILL_IO_EAST_11_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_BOND_sg13g2_IOPad_analog_io\[66\].io analog_io[66] bondpad_70x70_novias
+XIO_FILL_IO_NORTH_22_25 IOVDD IOVSS VDD VSS sg13g2_Filler400
+XIO_FILL_IO_EAST_0_25 IOVDD IOVSS VDD VSS sg13g2_Filler400
+XIO_FILL_IO_NORTH_17_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_SOUTH_14_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_WEST_6_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_WEST_13_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPad_analog_io\[14\].io IOVDD IOVSS analog_io[14] sg13g2_IOPad_analog_io\[14\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_NORTH_15_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPad_analog_io\[37\].io IOVDD IOVSS analog_io[37] sg13g2_IOPad_analog_io\[37\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_11_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_WEST_1_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_SOUTH_22_25 IOVDD IOVSS VDD VSS sg13g2_Filler400
+XIO_FILL_IO_EAST_3_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_SOUTH_17_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPad_analog_io\[10\].io analog_io[10] bondpad_70x70_novias
+XIO_BOND_sg13g2_IOPad_analog_io\[33\].io analog_io[33] bondpad_70x70_novias
+XIO_FILL_IO_SOUTH_22_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_WEST_9_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[56\].io analog_io[56] bondpad_70x70_novias
+Xsg13g2_IOPad_analog_io\[70\].io IOVDD IOVSS analog_io[70] sg13g2_IOPad_analog_io\[70\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_14_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPad_analog_io\[0\].io analog_io[0] bondpad_70x70_novias
+XIO_FILL_IO_EAST_6_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_EAST_22_25 IOVDD IOVSS VDD VSS sg13g2_Filler400
+Xsg13g2_IOPadIOVss_west IOVDD IOVSS VDD VSS sg13g2_IOPadIOVss
+Xsg13g2_IOPad_analog_io\[27\].io IOVDD IOVSS analog_io[27] sg13g2_IOPad_analog_io\[27\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_17_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_SOUTH_15_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_SOUTH_0_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPad_analog_io\[0\].io IOVDD IOVSS analog_io[0] sg13g2_IOPad_analog_io\[0\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_9_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPad_analog_io\[23\].io analog_io[23] bondpad_70x70_novias
+XIO_BOND_sg13g2_IOPad_analog_io\[46\].io analog_io[46] bondpad_70x70_novias
+XIO_FILL_IO_NORTH_0_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+Xsg13g2_IOPad_analog_io\[60\].io IOVDD IOVSS analog_io[60] sg13g2_IOPad_analog_io\[60\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_BOND_sg13g2_IOPad_analog_io\[69\].io analog_io[69] bondpad_70x70_novias
+XIO_BOND_sg13g2_IOPadIOVss_south IOVSS bondpad_70x70_novias
+XIO_FILL_IO_NORTH_20_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_NORTH_3_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+Xsg13g2_IOPad_analog_io\[17\].io IOVDD IOVSS analog_io[17] sg13g2_IOPad_analog_io\[17\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_NORTH_8_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_BOND_sg13g2_IOPadIOVdd_north IOVDD bondpad_70x70_novias
+XIO_FILL_IO_WEST_11_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_BOND_sg13g2_IOPad_analog_io\[13\].io analog_io[13] bondpad_70x70_novias
+XIO_BOND_sg13g2_IOPad_analog_io\[36\].io analog_io[36] bondpad_70x70_novias
+XIO_FILL_IO_NORTH_6_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[59\].io analog_io[59] bondpad_70x70_novias
+XIO_FILL_IO_NORTH_13_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_SOUTH_0_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+Xsg13g2_IOPad_analog_io\[50\].io IOVDD IOVSS analog_io[50] sg13g2_IOPad_analog_io\[50\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_WEST_0_25 IOVDD IOVSS VDD VSS sg13g2_Filler400
+XIO_BOND_sg13g2_IOPad_analog_io\[3\].io analog_io[3] bondpad_70x70_novias
+Xsg13g2_IOPadIOVss_east IOVDD IOVSS VDD VSS sg13g2_IOPadIOVss
+XIO_BOND_sg13g2_IOPadVss_south VSS bondpad_70x70_novias
+XIO_FILL_IO_SOUTH_20_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_NORTH_9_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_SOUTH_3_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_WEST_10_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_WEST_3_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+Xsg13g2_IOPad_analog_io\[3\].io IOVDD IOVSS analog_io[3] sg13g2_IOPad_analog_io\[3\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_BOND_sg13g2_IOPadIOVss_west IOVSS bondpad_70x70_novias
+XIO_BOND_sg13g2_IOPad_analog_io\[26\].io analog_io[26] bondpad_70x70_novias
+XIO_BOND_sg13g2_IOPadVdd_north IOVDD bondpad_70x70_novias
+Xsg13g2_IOPad_analog_io\[40\].io IOVDD IOVSS analog_io[40] sg13g2_IOPad_analog_io\[40\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_8_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_BOND_sg13g2_IOPad_analog_io\[49\].io analog_io[49] bondpad_70x70_novias
+Xsg13g2_IOPad_analog_io\[63\].io IOVDD IOVSS analog_io[63] sg13g2_IOPad_analog_io\[63\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_SOUTH_6_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_SOUTH_13_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_WEST_13_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_WEST_6_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_SOUTH_9_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_SOUTH_9_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_WEST_21_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_WEST_16_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_WEST_9_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_NORTH_12_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[16\].io analog_io[16] bondpad_70x70_novias
+Xsg13g2_IOPad_analog_io\[30\].io IOVDD IOVSS analog_io[30] sg13g2_IOPad_analog_io\[30\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_BOND_sg13g2_IOPad_analog_io\[39\].io analog_io[39] bondpad_70x70_novias
+XIO_FILL_IO_NORTH_6_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPad_analog_io\[53\].io IOVDD IOVSS analog_io[53] sg13g2_IOPad_analog_io\[53\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_18_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_WEST_19_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_NORTH_20_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[6\].io analog_io[6] bondpad_70x70_novias
+XIO_FILL_IO_SOUTH_12_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_NORTH_15_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_NORTH_11_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_BOND_sg13g2_IOPadIOVss_east IOVSS bondpad_70x70_novias
+XIO_FILL_IO_SOUTH_20_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_EAST_1_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+Xsg13g2_IOPad_analog_io\[6\].io IOVDD IOVSS analog_io[6] sg13g2_IOPad_analog_io\[6\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_NORTH_0_25 IOVDD IOVSS VDD VSS sg13g2_Filler400
+XIO_FILL_IO_NORTH_18_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_SOUTH_15_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_WEST_8_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPad_analog_io\[20\].io IOVDD IOVSS analog_io[20] sg13g2_IOPad_analog_io\[20\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+Xsg13g2_IOPadIOVdd_west IOVDD IOVSS VDD VSS sg13g2_IOPadIOVdd
+XIO_BOND_sg13g2_IOPad_analog_io\[29\].io analog_io[29] bondpad_70x70_novias
+Xsg13g2_IOPad_analog_io\[43\].io IOVDD IOVSS analog_io[43] sg13g2_IOPad_analog_io\[43\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+Xsg13g2_IOPad_analog_io\[66\].io IOVDD IOVSS analog_io[66] sg13g2_IOPad_analog_io\[66\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_12_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_EAST_4_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_NORTH_3_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_SOUTH_18_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_EAST_6_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_BOND_sg13g2_IOPad_analog_io\[62\].io analog_io[62] bondpad_70x70_novias
+XIO_FILL_IO_EAST_20_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_SOUTH_11_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_EAST_15_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPadIOVss_north IOVSS bondpad_70x70_novias
+XIO_FILL_IO_EAST_7_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_NORTH_6_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_SOUTH_0_25 IOVDD IOVSS VDD VSS sg13g2_Filler400
+XIO_FILL_IO_SOUTH_7_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPad_analog_io\[10\].io IOVDD IOVSS analog_io[10] sg13g2_IOPad_analog_io\[10\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_BOND_sg13g2_IOPad_analog_io\[19\].io analog_io[19] bondpad_70x70_novias
+Xsg13g2_IOPad_analog_io\[33\].io IOVDD IOVSS analog_io[33] sg13g2_IOPad_analog_io\[33\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_18_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+Xsg13g2_IOPad_analog_io\[56\].io IOVDD IOVSS analog_io[56] sg13g2_IOPad_analog_io\[56\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_BOND_sg13g2_IOPad_analog_io\[9\].io analog_io[9] bondpad_70x70_novias
+XIO_FILL_IO_NORTH_9_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_SOUTH_3_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPad_analog_io\[52\].io analog_io[52] bondpad_70x70_novias
+XIO_FILL_IO_NORTH_4_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_WEST_10_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_EAST_16_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPadIOVdd_east IOVDD IOVSS VDD VSS sg13g2_IOPadIOVdd
+Xsg13g2_IOPad_analog_io\[9\].io IOVDD IOVSS analog_io[9] sg13g2_IOPad_analog_io\[9\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_SOUTH_6_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPadVss_north IOVSS bondpad_70x70_novias
+Xsg13g2_IOPad_analog_io\[23\].io IOVDD IOVSS analog_io[23] sg13g2_IOPad_analog_io\[23\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_WEST_13_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+Xsg13g2_IOPad_analog_io\[46\].io IOVDD IOVSS analog_io[46] sg13g2_IOPad_analog_io\[46\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_WEST_18_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPad_analog_io\[69\].io IOVDD IOVSS analog_io[69] sg13g2_IOPad_analog_io\[69\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_WEST_6_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_BOND_sg13g2_IOPadIOVdd_west IOVDD bondpad_70x70_novias
+XIO_FILL_IO_SOUTH_9_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPad_analog_io\[42\].io analog_io[42] bondpad_70x70_novias
+XIO_FILL_IO_WEST_21_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPad_analog_io\[65\].io analog_io[65] bondpad_70x70_novias
+XIO_FILL_IO_WEST_16_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_NORTH_12_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_WEST_1_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_EAST_4_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+Xsg13g2_IOPad_analog_io\[13\].io IOVDD IOVSS analog_io[13] sg13g2_IOPad_analog_io\[13\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_WEST_19_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_NORTH_20_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+Xsg13g2_IOPad_analog_io\[36\].io IOVDD IOVSS analog_io[36] sg13g2_IOPad_analog_io\[36\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_SOUTH_12_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+Xsg13g2_IOPad_analog_io\[59\].io IOVDD IOVSS analog_io[59] sg13g2_IOPad_analog_io\[59\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_NORTH_15_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_EAST_21_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_WEST_4_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_BOND_sg13g2_IOPad_analog_io\[32\].io analog_io[32] bondpad_70x70_novias
+XIO_FILL_IO_SOUTH_5_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_BOND_sg13g2_IOPad_analog_io\[55\].io analog_io[55] bondpad_70x70_novias
+XIO_FILL_IO_SOUTH_20_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_EAST_1_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_NORTH_18_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_SOUTH_15_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_WEST_7_20 IOVDD IOVSS VDD VSS sg13g2_Filler1000
+XIO_FILL_IO_NORTH_2_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_EAST_12_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+Xsg13g2_IOPad_analog_io\[26\].io IOVDD IOVSS analog_io[26] sg13g2_IOPad_analog_io\[26\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_14_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_EAST_4_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPadIOVdd_east IOVDD bondpad_70x70_novias
+Xsg13g2_IOPad_analog_io\[49\].io IOVDD IOVSS analog_io[49] sg13g2_IOPad_analog_io\[49\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_SOUTH_18_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_EAST_20_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPad_analog_io\[22\].io analog_io[22] bondpad_70x70_novias
+XIO_FILL_IO_EAST_15_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_BOND_sg13g2_IOPad_analog_io\[45\].io analog_io[45] bondpad_70x70_novias
+XIO_BOND_sg13g2_IOPad_analog_io\[68\].io analog_io[68] bondpad_70x70_novias
+XIO_FILL_IO_WEST_16_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_EAST_7_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+XIO_FILL_IO_NORTH_18_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_WEST_4_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+XIO_FILL_IO_EAST_18_25 IOVDD IOVSS VDD VSS sg13g2_Filler200
+Xsg13g2_IOPad_analog_io\[16\].io IOVDD IOVSS analog_io[16] sg13g2_IOPad_analog_io\[16\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+Xsg13g2_IOPad_analog_io\[39\].io IOVDD IOVSS analog_io[39] sg13g2_IOPad_analog_io\[39\].io/padres
++ VDD VSS sg13g2_IOPadAnalog
+XIO_FILL_IO_EAST_2_0 IOVDD IOVSS VDD VSS sg13g2_Filler4000
+.ends
+

@@ -1,0 +1,2314 @@
+{
+  "creator": "Yosys 0.60 (git sha1 5bafeb77dc71e054fa331ab9efa613e6fb0a1c49, clang++ 21.1.2 -fPIC -O3)",
+  "modules": {
+    "user_project_wrapper": {
+      "attributes": {
+        "top": "00000000000000000000000000000001",
+        "src": "src/user_project_wrapper.sv:4.8"
+      },
+      "ports": {
+        "analog_io": {
+          "direction": "inout",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73 ]
+        }
+      },
+      "cells": {
+        "sg13g2_IOPadIOVdd_east": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadIOVdd",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPadIOVdd_east",
+            "keep": "1",
+            "src": "src/user_project_wrapper.sv:97.34"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPadIOVdd_north": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadIOVdd",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPadIOVdd_north",
+            "keep": "1",
+            "src": "src/user_project_wrapper.sv:114.34"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPadIOVdd_south": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadIOVdd",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPadIOVdd_south",
+            "keep": "1",
+            "src": "src/user_project_wrapper.sv:80.34"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPadIOVdd_west": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadIOVdd",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPadIOVdd_west",
+            "keep": "1",
+            "src": "src/user_project_wrapper.sv:131.34"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPadIOVss_east": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadIOVss",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPadIOVss_east",
+            "keep": "1",
+            "src": "src/user_project_wrapper.sv:105.34"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPadIOVss_north": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadIOVss",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPadIOVss_north",
+            "keep": "1",
+            "src": "src/user_project_wrapper.sv:122.34"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPadIOVss_south": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadIOVss",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPadIOVss_south",
+            "keep": "1",
+            "src": "src/user_project_wrapper.sv:88.34"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPadIOVss_west": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadIOVss",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPadIOVss_west",
+            "keep": "1",
+            "src": "src/user_project_wrapper.sv:139.34"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPadVdd_east": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadVdd",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPadVdd_east",
+            "keep": "1",
+            "src": "src/user_project_wrapper.sv:28.32"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPadVdd_north": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadIOVdd",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPadVdd_north",
+            "keep": "1",
+            "src": "src/user_project_wrapper.sv:53.34"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPadVdd_south": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadVdd",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPadVdd_south",
+            "keep": "1",
+            "src": "src/user_project_wrapper.sv:11.32"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPadVdd_west": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadVdd",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPadVdd_west",
+            "keep": "1",
+            "src": "src/user_project_wrapper.sv:62.32"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPadVss_east": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadVss",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPadVss_east",
+            "keep": "1",
+            "src": "src/user_project_wrapper.sv:36.32"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPadVss_north": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadIOVss",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPadVss_north",
+            "keep": "1",
+            "src": "src/user_project_wrapper.sv:45.34"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPadVss_south": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadVss",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPadVss_south",
+            "keep": "1",
+            "src": "src/user_project_wrapper.sv:19.32"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPadVss_west": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadVss",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPadVss_west",
+            "keep": "1",
+            "src": "src/user_project_wrapper.sv:70.32"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[0].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[0] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 2 ],
+            "padres": [ 78 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[10].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[10] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 12 ],
+            "padres": [ 79 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[11].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[11] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 13 ],
+            "padres": [ 80 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[12].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[12] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 14 ],
+            "padres": [ 81 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[13].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[13] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 15 ],
+            "padres": [ 82 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[14].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[14] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 16 ],
+            "padres": [ 83 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[15].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[15] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 17 ],
+            "padres": [ 84 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[16].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[16] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 18 ],
+            "padres": [ 85 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[17].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[17] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 19 ],
+            "padres": [ 86 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[18].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[18] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 20 ],
+            "padres": [ 87 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[19].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[19] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 21 ],
+            "padres": [ 88 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[1].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[1] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 3 ],
+            "padres": [ 89 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[20].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[20] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 22 ],
+            "padres": [ 90 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[21].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[21] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 23 ],
+            "padres": [ 91 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[22].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[22] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 24 ],
+            "padres": [ 92 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[23].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[23] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 25 ],
+            "padres": [ 93 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[24].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[24] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 26 ],
+            "padres": [ 94 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[25].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[25] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 27 ],
+            "padres": [ 95 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[26].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[26] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 28 ],
+            "padres": [ 96 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[27].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[27] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 29 ],
+            "padres": [ 97 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[28].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[28] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 30 ],
+            "padres": [ 98 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[29].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[29] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 31 ],
+            "padres": [ 99 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[2].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[2] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 4 ],
+            "padres": [ 100 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[30].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[30] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 32 ],
+            "padres": [ 101 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[31].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[31] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 33 ],
+            "padres": [ 102 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[32].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[32] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 34 ],
+            "padres": [ 103 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[33].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[33] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 35 ],
+            "padres": [ 104 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[34].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[34] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 36 ],
+            "padres": [ 105 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[35].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[35] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 37 ],
+            "padres": [ 106 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[36].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[36] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 38 ],
+            "padres": [ 107 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[37].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[37] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 39 ],
+            "padres": [ 108 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[38].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[38] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 40 ],
+            "padres": [ 109 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[39].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[39] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 41 ],
+            "padres": [ 110 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[3].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[3] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 5 ],
+            "padres": [ 111 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[40].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[40] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 42 ],
+            "padres": [ 112 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[41].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[41] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 43 ],
+            "padres": [ 113 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[42].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[42] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 44 ],
+            "padres": [ 114 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[43].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[43] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 45 ],
+            "padres": [ 115 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[44].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[44] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 46 ],
+            "padres": [ 116 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[45].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[45] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 47 ],
+            "padres": [ 117 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[46].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[46] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 48 ],
+            "padres": [ 118 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[47].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[47] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 49 ],
+            "padres": [ 119 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[48].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[48] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 50 ],
+            "padres": [ 120 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[49].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[49] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 51 ],
+            "padres": [ 121 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[4].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[4] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 6 ],
+            "padres": [ 122 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[50].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[50] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 52 ],
+            "padres": [ 123 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[51].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[51] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 53 ],
+            "padres": [ 124 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[52].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[52] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 54 ],
+            "padres": [ 125 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[53].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[53] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 55 ],
+            "padres": [ 126 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[54].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[54] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 56 ],
+            "padres": [ 127 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[55].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[55] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 57 ],
+            "padres": [ 128 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[56].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[56] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 58 ],
+            "padres": [ 129 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[57].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[57] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 59 ],
+            "padres": [ 130 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[58].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[58] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 60 ],
+            "padres": [ 131 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[59].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[59] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 61 ],
+            "padres": [ 132 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[5].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[5] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 7 ],
+            "padres": [ 133 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[60].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[60] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 62 ],
+            "padres": [ 134 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[61].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[61] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 63 ],
+            "padres": [ 135 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[62].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[62] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 64 ],
+            "padres": [ 136 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[63].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[63] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 65 ],
+            "padres": [ 137 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[64].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[64] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 66 ],
+            "padres": [ 138 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[65].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[65] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 67 ],
+            "padres": [ 139 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[66].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[66] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 68 ],
+            "padres": [ 140 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[67].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[67] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 69 ],
+            "padres": [ 141 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[68].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[68] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 70 ],
+            "padres": [ 142 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[69].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[69] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 71 ],
+            "padres": [ 143 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[6].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[6] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 8 ],
+            "padres": [ 144 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[70].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[70] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 72 ],
+            "padres": [ 145 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[71].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[71] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 73 ],
+            "padres": [ 146 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[7].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[7] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 9 ],
+            "padres": [ 147 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[8].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[8] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 10 ],
+            "padres": [ 148 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        },
+        "sg13g2_IOPad_analog_io[9].io": {
+          "hide_name": 0,
+          "type": "sg13g2_IOPadAnalog",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "sg13g2_IOPad_analog_io[9] io",
+            "src": "src/user_project_wrapper.sv:150.28"
+          },
+          "port_directions": {
+            "iovdd": "inout",
+            "iovss": "inout",
+            "pad": "inout",
+            "padres": "inout",
+            "vdd": "inout",
+            "vss": "inout"
+          },
+          "connections": {
+            "iovdd": [ 74 ],
+            "iovss": [ 75 ],
+            "pad": [ 11 ],
+            "padres": [ 149 ],
+            "vdd": [ 76 ],
+            "vss": [ 77 ]
+          }
+        }
+      },
+      "netnames": {
+        "IOVDD": {
+          "hide_name": 0,
+          "bits": [ 74 ],
+          "attributes": {
+            "hdlname": "IOVDD",
+            "src": "src/user_project_wrapper.sv:16.18",
+            "unused_bits": "0 "
+          }
+        },
+        "IOVSS": {
+          "hide_name": 0,
+          "bits": [ 75 ],
+          "attributes": {
+            "hdlname": "IOVSS",
+            "src": "src/user_project_wrapper.sv:15.18",
+            "unused_bits": "0 "
+          }
+        },
+        "VDD": {
+          "hide_name": 0,
+          "bits": [ 76 ],
+          "attributes": {
+            "hdlname": "VDD",
+            "src": "src/user_project_wrapper.sv:14.18",
+            "unused_bits": "0 "
+          }
+        },
+        "VSS": {
+          "hide_name": 0,
+          "bits": [ 77 ],
+          "attributes": {
+            "hdlname": "VSS",
+            "src": "src/user_project_wrapper.sv:13.18",
+            "unused_bits": "0 "
+          }
+        },
+        "analog_io": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73 ],
+          "attributes": {
+            "hdlname": "analog_io",
+            "src": "src/user_project_wrapper.sv:5.23"
+          }
+        },
+        "analog_io_padres": {
+          "hide_name": 0,
+          "bits": [ 78, 89, 100, 111, 122, 133, 144, 147, 148, 149, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 145, 146 ],
+          "attributes": {
+            "hdlname": "analog_io_padres",
+            "src": "src/user_project_wrapper.sv:7.17",
+            "unused_bits": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71"
+          }
+        }
+      }
+    }
+  }
+}

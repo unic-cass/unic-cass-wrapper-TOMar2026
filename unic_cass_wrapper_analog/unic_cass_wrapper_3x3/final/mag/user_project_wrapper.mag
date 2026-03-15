@@ -1,0 +1,2096 @@
+magic
+tech ihp-sg13g2
+timestamp 1772640149
+<< metal7 >>
+rect 35200 286000 42200 293000
+rect 45800 286000 52800 293000
+rect 56400 286000 63400 293000
+rect 67000 286000 74000 293000
+rect 77600 286000 84600 293000
+rect 88200 286000 95200 293000
+rect 98800 286000 105800 293000
+rect 109400 286000 116400 293000
+rect 120000 286000 127000 293000
+rect 130600 286000 137600 293000
+rect 141200 286000 148200 293000
+rect 151800 286000 158800 293000
+rect 162400 286000 169400 293000
+rect 173000 286000 180000 293000
+rect 183600 286000 190600 293000
+rect 194200 286000 201200 293000
+rect 204800 286000 211800 293000
+rect 215400 286000 222400 293000
+rect 226000 286000 233000 293000
+rect 236600 286000 243600 293000
+rect 247200 286000 254200 293000
+rect 257800 286000 264800 293000
+rect 7000 257800 14000 264800
+rect 286000 257800 293000 264800
+rect 7000 247200 14000 254200
+rect 286000 247200 293000 254200
+rect 7000 236600 14000 243600
+rect 286000 236600 293000 243600
+rect 7000 226000 14000 233000
+rect 286000 226000 293000 233000
+rect 7000 215400 14000 222400
+rect 286000 215400 293000 222400
+rect 7000 204800 14000 211800
+rect 286000 204800 293000 211800
+rect 7000 194200 14000 201200
+rect 286000 194200 293000 201200
+rect 7000 183600 14000 190600
+rect 286000 183600 293000 190600
+rect 7000 173000 14000 180000
+rect 286000 173000 293000 180000
+rect 7000 162400 14000 169400
+rect 286000 162400 293000 169400
+rect 7000 151800 14000 158800
+rect 286000 151800 293000 158800
+rect 7000 141200 14000 148200
+rect 286000 141200 293000 148200
+rect 7000 130600 14000 137600
+rect 286000 130600 293000 137600
+rect 7000 120000 14000 127000
+rect 286000 120000 293000 127000
+rect 7000 109400 14000 116400
+rect 286000 109400 293000 116400
+rect 7000 98800 14000 105800
+rect 286000 98800 293000 105800
+rect 7000 88200 14000 95200
+rect 286000 88200 293000 95200
+rect 7000 77600 14000 84600
+rect 286000 77600 293000 84600
+rect 7000 67000 14000 74000
+rect 286000 67000 293000 74000
+rect 7000 56400 14000 63400
+rect 286000 56400 293000 63400
+rect 7000 45800 14000 52800
+rect 286000 45800 293000 52800
+rect 7000 35200 14000 42200
+rect 286000 35200 293000 42200
+rect 35200 7000 42200 14000
+rect 45800 7000 52800 14000
+rect 56400 7000 63400 14000
+rect 67000 7000 74000 14000
+rect 77600 7000 84600 14000
+rect 88200 7000 95200 14000
+rect 98800 7000 105800 14000
+rect 109400 7000 116400 14000
+rect 120000 7000 127000 14000
+rect 130600 7000 137600 14000
+rect 141200 7000 148200 14000
+rect 151800 7000 158800 14000
+rect 162400 7000 169400 14000
+rect 173000 7000 180000 14000
+rect 183600 7000 190600 14000
+rect 194200 7000 201200 14000
+rect 204800 7000 211800 14000
+rect 215400 7000 222400 14000
+rect 226000 7000 233000 14000
+rect 236600 7000 243600 14000
+rect 247200 7000 254200 14000
+rect 257800 7000 264800 14000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[0\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 56400
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[1\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 67000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[2\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 77600
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[3\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 88200
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[4\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 98800
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[5\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 109400
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[6\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 120000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[7\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 130600
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[8\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 141200
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[9\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 151800
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[10\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 162400
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[11\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 173000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[12\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 183600
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[13\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 194200
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[14\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 204800
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[15\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 215400
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[16\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 226000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[17\].io
+timestamp 1590364920
+transform 0 1 7000 1 0 236600
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[18\].io
+timestamp 1590364920
+transform 1 0 56400 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[19\].io
+timestamp 1590364920
+transform 1 0 67000 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[20\].io
+timestamp 1590364920
+transform 1 0 77600 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[21\].io
+timestamp 1590364920
+transform 1 0 88200 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[22\].io
+timestamp 1590364920
+transform 1 0 98800 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[23\].io
+timestamp 1590364920
+transform 1 0 109400 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[24\].io
+timestamp 1590364920
+transform 1 0 120000 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[25\].io
+timestamp 1590364920
+transform 1 0 130600 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[26\].io
+timestamp 1590364920
+transform 1 0 141200 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[27\].io
+timestamp 1590364920
+transform 1 0 151800 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[28\].io
+timestamp 1590364920
+transform 1 0 162400 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[29\].io
+timestamp 1590364920
+transform 1 0 173000 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[30\].io
+timestamp 1590364920
+transform 1 0 183600 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[31\].io
+timestamp 1590364920
+transform 1 0 194200 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[32\].io
+timestamp 1590364920
+transform 1 0 204800 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[33\].io
+timestamp 1590364920
+transform 1 0 215400 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[34\].io
+timestamp 1590364920
+transform 1 0 226000 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[35\].io
+timestamp 1590364920
+transform 1 0 236600 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[36\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 56400
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[37\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 67000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[38\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 77600
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[39\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 88200
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[40\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 98800
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[41\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 109400
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[42\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 120000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[43\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 130600
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[44\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 141200
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[45\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 151800
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[46\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 162400
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[47\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 173000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[48\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 183600
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[49\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 194200
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[50\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 204800
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[51\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 215400
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[52\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 226000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[53\].io
+timestamp 1590364920
+transform 0 -1 293000 1 0 236600
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[54\].io
+timestamp 1590364920
+transform 1 0 56400 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[55\].io
+timestamp 1590364920
+transform 1 0 67000 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[56\].io
+timestamp 1590364920
+transform 1 0 77600 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[57\].io
+timestamp 1590364920
+transform 1 0 88200 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[58\].io
+timestamp 1590364920
+transform 1 0 98800 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[59\].io
+timestamp 1590364920
+transform 1 0 109400 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[60\].io
+timestamp 1590364920
+transform 1 0 120000 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[61\].io
+timestamp 1590364920
+transform 1 0 130600 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[62\].io
+timestamp 1590364920
+transform 1 0 141200 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[63\].io
+timestamp 1590364920
+transform 1 0 151800 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[64\].io
+timestamp 1590364920
+transform 1 0 162400 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[65\].io
+timestamp 1590364920
+transform 1 0 173000 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[66\].io
+timestamp 1590364920
+transform 1 0 183600 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[67\].io
+timestamp 1590364920
+transform 1 0 194200 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[68\].io
+timestamp 1590364920
+transform 1 0 204800 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[69\].io
+timestamp 1590364920
+transform 1 0 215400 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[70\].io
+timestamp 1590364920
+transform 1 0 226000 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPad_analog_io\[71\].io
+timestamp 1590364920
+transform 1 0 236600 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPadIOVdd_east
+timestamp 1590364920
+transform 0 -1 293000 1 0 247200
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPadIOVdd_north
+timestamp 1590364920
+transform 1 0 247200 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPadIOVdd_south
+timestamp 1590364920
+transform 1 0 247200 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPadIOVdd_west
+timestamp 1590364920
+transform 0 1 7000 1 0 247200
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPadIOVss_east
+timestamp 1590364920
+transform 0 -1 293000 1 0 257800
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPadIOVss_north
+timestamp 1590364920
+transform 1 0 257800 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPadIOVss_south
+timestamp 1590364920
+transform 1 0 257800 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPadIOVss_west
+timestamp 1590364920
+transform 0 1 7000 1 0 257800
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPadVdd_east
+timestamp 1590364920
+transform 0 -1 293000 1 0 35200
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPadVdd_north
+timestamp 1590364920
+transform 1 0 35200 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPadVdd_south
+timestamp 1590364920
+transform 1 0 35200 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPadVdd_west
+timestamp 1590364920
+transform 0 1 7000 1 0 35200
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPadVss_east
+timestamp 1590364920
+transform 0 -1 293000 1 0 45800
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPadVss_north
+timestamp 1590364920
+transform 1 0 45800 0 -1 293000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPadVss_south
+timestamp 1590364920
+transform 1 0 45800 0 1 7000
+box 0 0 7000 7000
+use bondpad_70x70_novias  IO_BOND_sg13g2_IOPadVss_west
+timestamp 1590364920
+transform 0 1 7000 1 0 45800
+box 0 0 7000 7000
+use sg13g2_Corner  IO_CORNER_NORTH_EAST_INST
+timestamp 1716382778
+transform -1 0 286000 0 -1 286000
+box 538 538 18062 18062
+use sg13g2_Corner  IO_CORNER_NORTH_WEST_INST
+timestamp 1716382778
+transform 1 0 14000 0 -1 286000
+box 538 538 18062 18062
+use sg13g2_Corner  IO_CORNER_SOUTH_EAST_INST
+timestamp 1716382778
+transform -1 0 286000 0 1 14000
+box 538 538 18062 18062
+use sg13g2_Corner  IO_CORNER_SOUTH_WEST_INST
+timestamp 1716382778
+transform 1 0 14000 0 1 14000
+box 538 538 18062 18062
+use sg13g2_Filler4000  IO_FILL_IO_EAST_0_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 32000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_0_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 34000
+box -62 538 562 17800
+use sg13g2_Filler400  IO_FILL_IO_EAST_0_25
+timestamp 1718206786
+transform 0 -1 286000 1 0 34500
+box -62 538 262 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_1_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 42700
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_1_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 44700
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_1_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 45200
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_2_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 53300
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_2_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 55300
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_2_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 55800
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_3_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 63900
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_3_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 65900
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_3_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 66400
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_4_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 74500
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_4_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 76500
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_4_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 77000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_5_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 85100
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_5_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 87100
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_5_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 87600
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_6_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 95700
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_6_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 97700
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_6_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 98200
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_7_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 106300
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_7_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 108300
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_7_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 108800
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_8_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 116900
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_8_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 118900
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_8_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 119400
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_9_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 127500
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_9_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 129500
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_9_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 130000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_10_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 138100
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_10_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 140100
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_10_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 140600
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_11_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 148700
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_11_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 150700
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_11_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 151200
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_12_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 159300
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_12_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 161300
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_12_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 161800
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_13_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 169900
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_13_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 171900
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_13_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 172400
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_14_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 180500
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_14_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 182500
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_14_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 183000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_15_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 191100
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_15_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 193100
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_15_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 193600
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_16_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 201700
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_16_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 203700
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_16_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 204200
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_17_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 212300
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_17_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 214300
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_17_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 214800
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_18_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 222900
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_18_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 224900
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_18_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 225400
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_19_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 233500
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_19_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 235500
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_19_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 236000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_20_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 244100
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_20_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 246100
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_20_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 246600
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_21_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 254700
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_21_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 256700
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_EAST_21_25
+timestamp 1716459628
+transform 0 -1 286000 1 0 257200
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_EAST_22_0
+timestamp 1718206866
+transform 0 -1 286000 1 0 265300
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_EAST_22_20
+timestamp 1718206802
+transform 0 -1 286000 1 0 267300
+box -62 538 562 17800
+use sg13g2_Filler400  IO_FILL_IO_EAST_22_25
+timestamp 1718206786
+transform 0 -1 286000 1 0 267800
+box -62 538 262 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_0_0
+timestamp 1718206866
+transform 1 0 32000 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_0_20
+timestamp 1718206802
+transform 1 0 34000 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler400  IO_FILL_IO_NORTH_0_25
+timestamp 1718206786
+transform 1 0 34500 0 -1 286000
+box -62 538 262 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_1_0
+timestamp 1718206866
+transform 1 0 42700 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_1_20
+timestamp 1718206802
+transform 1 0 44700 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_1_25
+timestamp 1716459628
+transform 1 0 45200 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_2_0
+timestamp 1718206866
+transform 1 0 53300 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_2_20
+timestamp 1718206802
+transform 1 0 55300 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_2_25
+timestamp 1716459628
+transform 1 0 55800 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_3_0
+timestamp 1718206866
+transform 1 0 63900 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_3_20
+timestamp 1718206802
+transform 1 0 65900 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_3_25
+timestamp 1716459628
+transform 1 0 66400 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_4_0
+timestamp 1718206866
+transform 1 0 74500 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_4_20
+timestamp 1718206802
+transform 1 0 76500 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_4_25
+timestamp 1716459628
+transform 1 0 77000 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_5_0
+timestamp 1718206866
+transform 1 0 85100 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_5_20
+timestamp 1718206802
+transform 1 0 87100 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_5_25
+timestamp 1716459628
+transform 1 0 87600 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_6_0
+timestamp 1718206866
+transform 1 0 95700 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_6_20
+timestamp 1718206802
+transform 1 0 97700 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_6_25
+timestamp 1716459628
+transform 1 0 98200 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_7_0
+timestamp 1718206866
+transform 1 0 106300 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_7_20
+timestamp 1718206802
+transform 1 0 108300 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_7_25
+timestamp 1716459628
+transform 1 0 108800 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_8_0
+timestamp 1718206866
+transform 1 0 116900 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_8_20
+timestamp 1718206802
+transform 1 0 118900 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_8_25
+timestamp 1716459628
+transform 1 0 119400 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_9_0
+timestamp 1718206866
+transform 1 0 127500 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_9_20
+timestamp 1718206802
+transform 1 0 129500 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_9_25
+timestamp 1716459628
+transform 1 0 130000 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_10_0
+timestamp 1718206866
+transform 1 0 138100 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_10_20
+timestamp 1718206802
+transform 1 0 140100 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_10_25
+timestamp 1716459628
+transform 1 0 140600 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_11_0
+timestamp 1718206866
+transform 1 0 148700 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_11_20
+timestamp 1718206802
+transform 1 0 150700 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_11_25
+timestamp 1716459628
+transform 1 0 151200 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_12_0
+timestamp 1718206866
+transform 1 0 159300 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_12_20
+timestamp 1718206802
+transform 1 0 161300 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_12_25
+timestamp 1716459628
+transform 1 0 161800 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_13_0
+timestamp 1718206866
+transform 1 0 169900 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_13_20
+timestamp 1718206802
+transform 1 0 171900 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_13_25
+timestamp 1716459628
+transform 1 0 172400 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_14_0
+timestamp 1718206866
+transform 1 0 180500 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_14_20
+timestamp 1718206802
+transform 1 0 182500 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_14_25
+timestamp 1716459628
+transform 1 0 183000 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_15_0
+timestamp 1718206866
+transform 1 0 191100 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_15_20
+timestamp 1718206802
+transform 1 0 193100 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_15_25
+timestamp 1716459628
+transform 1 0 193600 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_16_0
+timestamp 1718206866
+transform 1 0 201700 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_16_20
+timestamp 1718206802
+transform 1 0 203700 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_16_25
+timestamp 1716459628
+transform 1 0 204200 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_17_0
+timestamp 1718206866
+transform 1 0 212300 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_17_20
+timestamp 1718206802
+transform 1 0 214300 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_17_25
+timestamp 1716459628
+transform 1 0 214800 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_18_0
+timestamp 1718206866
+transform 1 0 222900 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_18_20
+timestamp 1718206802
+transform 1 0 224900 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_18_25
+timestamp 1716459628
+transform 1 0 225400 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_19_0
+timestamp 1718206866
+transform 1 0 233500 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_19_20
+timestamp 1718206802
+transform 1 0 235500 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_19_25
+timestamp 1716459628
+transform 1 0 236000 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_20_0
+timestamp 1718206866
+transform 1 0 244100 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_20_20
+timestamp 1718206802
+transform 1 0 246100 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_20_25
+timestamp 1716459628
+transform 1 0 246600 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_21_0
+timestamp 1718206866
+transform 1 0 254700 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_21_20
+timestamp 1718206802
+transform 1 0 256700 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_NORTH_21_25
+timestamp 1716459628
+transform 1 0 257200 0 -1 286000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_NORTH_22_0
+timestamp 1718206866
+transform 1 0 265300 0 -1 286000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_NORTH_22_20
+timestamp 1718206802
+transform 1 0 267300 0 -1 286000
+box -62 538 562 17800
+use sg13g2_Filler400  IO_FILL_IO_NORTH_22_25
+timestamp 1718206786
+transform 1 0 267800 0 -1 286000
+box -62 538 262 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_0_0
+timestamp 1718206866
+transform 1 0 32000 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_0_20
+timestamp 1718206802
+transform 1 0 34000 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler400  IO_FILL_IO_SOUTH_0_25
+timestamp 1718206786
+transform 1 0 34500 0 1 14000
+box -62 538 262 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_1_0
+timestamp 1718206866
+transform 1 0 42700 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_1_20
+timestamp 1718206802
+transform 1 0 44700 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_1_25
+timestamp 1716459628
+transform 1 0 45200 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_2_0
+timestamp 1718206866
+transform 1 0 53300 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_2_20
+timestamp 1718206802
+transform 1 0 55300 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_2_25
+timestamp 1716459628
+transform 1 0 55800 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_3_0
+timestamp 1718206866
+transform 1 0 63900 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_3_20
+timestamp 1718206802
+transform 1 0 65900 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_3_25
+timestamp 1716459628
+transform 1 0 66400 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_4_0
+timestamp 1718206866
+transform 1 0 74500 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_4_20
+timestamp 1718206802
+transform 1 0 76500 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_4_25
+timestamp 1716459628
+transform 1 0 77000 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_5_0
+timestamp 1718206866
+transform 1 0 85100 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_5_20
+timestamp 1718206802
+transform 1 0 87100 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_5_25
+timestamp 1716459628
+transform 1 0 87600 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_6_0
+timestamp 1718206866
+transform 1 0 95700 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_6_20
+timestamp 1718206802
+transform 1 0 97700 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_6_25
+timestamp 1716459628
+transform 1 0 98200 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_7_0
+timestamp 1718206866
+transform 1 0 106300 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_7_20
+timestamp 1718206802
+transform 1 0 108300 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_7_25
+timestamp 1716459628
+transform 1 0 108800 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_8_0
+timestamp 1718206866
+transform 1 0 116900 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_8_20
+timestamp 1718206802
+transform 1 0 118900 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_8_25
+timestamp 1716459628
+transform 1 0 119400 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_9_0
+timestamp 1718206866
+transform 1 0 127500 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_9_20
+timestamp 1718206802
+transform 1 0 129500 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_9_25
+timestamp 1716459628
+transform 1 0 130000 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_10_0
+timestamp 1718206866
+transform 1 0 138100 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_10_20
+timestamp 1718206802
+transform 1 0 140100 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_10_25
+timestamp 1716459628
+transform 1 0 140600 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_11_0
+timestamp 1718206866
+transform 1 0 148700 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_11_20
+timestamp 1718206802
+transform 1 0 150700 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_11_25
+timestamp 1716459628
+transform 1 0 151200 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_12_0
+timestamp 1718206866
+transform 1 0 159300 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_12_20
+timestamp 1718206802
+transform 1 0 161300 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_12_25
+timestamp 1716459628
+transform 1 0 161800 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_13_0
+timestamp 1718206866
+transform 1 0 169900 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_13_20
+timestamp 1718206802
+transform 1 0 171900 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_13_25
+timestamp 1716459628
+transform 1 0 172400 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_14_0
+timestamp 1718206866
+transform 1 0 180500 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_14_20
+timestamp 1718206802
+transform 1 0 182500 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_14_25
+timestamp 1716459628
+transform 1 0 183000 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_15_0
+timestamp 1718206866
+transform 1 0 191100 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_15_20
+timestamp 1718206802
+transform 1 0 193100 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_15_25
+timestamp 1716459628
+transform 1 0 193600 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_16_0
+timestamp 1718206866
+transform 1 0 201700 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_16_20
+timestamp 1718206802
+transform 1 0 203700 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_16_25
+timestamp 1716459628
+transform 1 0 204200 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_17_0
+timestamp 1718206866
+transform 1 0 212300 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_17_20
+timestamp 1718206802
+transform 1 0 214300 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_17_25
+timestamp 1716459628
+transform 1 0 214800 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_18_0
+timestamp 1718206866
+transform 1 0 222900 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_18_20
+timestamp 1718206802
+transform 1 0 224900 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_18_25
+timestamp 1716459628
+transform 1 0 225400 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_19_0
+timestamp 1718206866
+transform 1 0 233500 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_19_20
+timestamp 1718206802
+transform 1 0 235500 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_19_25
+timestamp 1716459628
+transform 1 0 236000 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_20_0
+timestamp 1718206866
+transform 1 0 244100 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_20_20
+timestamp 1718206802
+transform 1 0 246100 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_20_25
+timestamp 1716459628
+transform 1 0 246600 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_21_0
+timestamp 1718206866
+transform 1 0 254700 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_21_20
+timestamp 1718206802
+transform 1 0 256700 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_SOUTH_21_25
+timestamp 1716459628
+transform 1 0 257200 0 1 14000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_SOUTH_22_0
+timestamp 1718206866
+transform 1 0 265300 0 1 14000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_SOUTH_22_20
+timestamp 1718206802
+transform 1 0 267300 0 1 14000
+box -62 538 562 17800
+use sg13g2_Filler400  IO_FILL_IO_SOUTH_22_25
+timestamp 1718206786
+transform 1 0 267800 0 1 14000
+box -62 538 262 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_0_0
+timestamp 1718206866
+transform 0 1 14000 1 0 32000
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_0_20
+timestamp 1718206802
+transform 0 1 14000 1 0 34000
+box -62 538 562 17800
+use sg13g2_Filler400  IO_FILL_IO_WEST_0_25
+timestamp 1718206786
+transform 0 1 14000 1 0 34500
+box -62 538 262 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_1_0
+timestamp 1718206866
+transform 0 1 14000 1 0 42700
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_1_20
+timestamp 1718206802
+transform 0 1 14000 1 0 44700
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_1_25
+timestamp 1716459628
+transform 0 1 14000 1 0 45200
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_2_0
+timestamp 1718206866
+transform 0 1 14000 1 0 53300
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_2_20
+timestamp 1718206802
+transform 0 1 14000 1 0 55300
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_2_25
+timestamp 1716459628
+transform 0 1 14000 1 0 55800
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_3_0
+timestamp 1718206866
+transform 0 1 14000 1 0 63900
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_3_20
+timestamp 1718206802
+transform 0 1 14000 1 0 65900
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_3_25
+timestamp 1716459628
+transform 0 1 14000 1 0 66400
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_4_0
+timestamp 1718206866
+transform 0 1 14000 1 0 74500
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_4_20
+timestamp 1718206802
+transform 0 1 14000 1 0 76500
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_4_25
+timestamp 1716459628
+transform 0 1 14000 1 0 77000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_5_0
+timestamp 1718206866
+transform 0 1 14000 1 0 85100
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_5_20
+timestamp 1718206802
+transform 0 1 14000 1 0 87100
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_5_25
+timestamp 1716459628
+transform 0 1 14000 1 0 87600
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_6_0
+timestamp 1718206866
+transform 0 1 14000 1 0 95700
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_6_20
+timestamp 1718206802
+transform 0 1 14000 1 0 97700
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_6_25
+timestamp 1716459628
+transform 0 1 14000 1 0 98200
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_7_0
+timestamp 1718206866
+transform 0 1 14000 1 0 106300
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_7_20
+timestamp 1718206802
+transform 0 1 14000 1 0 108300
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_7_25
+timestamp 1716459628
+transform 0 1 14000 1 0 108800
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_8_0
+timestamp 1718206866
+transform 0 1 14000 1 0 116900
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_8_20
+timestamp 1718206802
+transform 0 1 14000 1 0 118900
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_8_25
+timestamp 1716459628
+transform 0 1 14000 1 0 119400
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_9_0
+timestamp 1718206866
+transform 0 1 14000 1 0 127500
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_9_20
+timestamp 1718206802
+transform 0 1 14000 1 0 129500
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_9_25
+timestamp 1716459628
+transform 0 1 14000 1 0 130000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_10_0
+timestamp 1718206866
+transform 0 1 14000 1 0 138100
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_10_20
+timestamp 1718206802
+transform 0 1 14000 1 0 140100
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_10_25
+timestamp 1716459628
+transform 0 1 14000 1 0 140600
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_11_0
+timestamp 1718206866
+transform 0 1 14000 1 0 148700
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_11_20
+timestamp 1718206802
+transform 0 1 14000 1 0 150700
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_11_25
+timestamp 1716459628
+transform 0 1 14000 1 0 151200
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_12_0
+timestamp 1718206866
+transform 0 1 14000 1 0 159300
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_12_20
+timestamp 1718206802
+transform 0 1 14000 1 0 161300
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_12_25
+timestamp 1716459628
+transform 0 1 14000 1 0 161800
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_13_0
+timestamp 1718206866
+transform 0 1 14000 1 0 169900
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_13_20
+timestamp 1718206802
+transform 0 1 14000 1 0 171900
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_13_25
+timestamp 1716459628
+transform 0 1 14000 1 0 172400
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_14_0
+timestamp 1718206866
+transform 0 1 14000 1 0 180500
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_14_20
+timestamp 1718206802
+transform 0 1 14000 1 0 182500
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_14_25
+timestamp 1716459628
+transform 0 1 14000 1 0 183000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_15_0
+timestamp 1718206866
+transform 0 1 14000 1 0 191100
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_15_20
+timestamp 1718206802
+transform 0 1 14000 1 0 193100
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_15_25
+timestamp 1716459628
+transform 0 1 14000 1 0 193600
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_16_0
+timestamp 1718206866
+transform 0 1 14000 1 0 201700
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_16_20
+timestamp 1718206802
+transform 0 1 14000 1 0 203700
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_16_25
+timestamp 1716459628
+transform 0 1 14000 1 0 204200
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_17_0
+timestamp 1718206866
+transform 0 1 14000 1 0 212300
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_17_20
+timestamp 1718206802
+transform 0 1 14000 1 0 214300
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_17_25
+timestamp 1716459628
+transform 0 1 14000 1 0 214800
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_18_0
+timestamp 1718206866
+transform 0 1 14000 1 0 222900
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_18_20
+timestamp 1718206802
+transform 0 1 14000 1 0 224900
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_18_25
+timestamp 1716459628
+transform 0 1 14000 1 0 225400
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_19_0
+timestamp 1718206866
+transform 0 1 14000 1 0 233500
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_19_20
+timestamp 1718206802
+transform 0 1 14000 1 0 235500
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_19_25
+timestamp 1716459628
+transform 0 1 14000 1 0 236000
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_20_0
+timestamp 1718206866
+transform 0 1 14000 1 0 244100
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_20_20
+timestamp 1718206802
+transform 0 1 14000 1 0 246100
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_20_25
+timestamp 1716459628
+transform 0 1 14000 1 0 246600
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_21_0
+timestamp 1718206866
+transform 0 1 14000 1 0 254700
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_21_20
+timestamp 1718206802
+transform 0 1 14000 1 0 256700
+box -62 538 562 17800
+use sg13g2_Filler200  IO_FILL_IO_WEST_21_25
+timestamp 1716459628
+transform 0 1 14000 1 0 257200
+box -50 538 150 17800
+use sg13g2_Filler4000  IO_FILL_IO_WEST_22_0
+timestamp 1718206866
+transform 0 1 14000 1 0 265300
+box -62 538 2062 17800
+use sg13g2_Filler1000  IO_FILL_IO_WEST_22_20
+timestamp 1718206802
+transform 0 1 14000 1 0 267300
+box -62 538 562 17800
+use sg13g2_Filler400  IO_FILL_IO_WEST_22_25
+timestamp 1718206786
+transform 0 1 14000 1 0 267800
+box -62 538 262 17800
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[0\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 55900
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[1\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 66500
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[2\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 77100
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[3\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 87700
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[4\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 98300
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[5\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 108900
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[6\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 119500
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[7\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 130100
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[8\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 140700
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[9\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 151300
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[10\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 161900
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[11\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 172500
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[12\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 183100
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[13\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 193700
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[14\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 204300
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[15\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 214900
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[16\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 225500
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[17\].io
+timestamp 1718205910
+transform 0 1 14000 1 0 236100
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[18\].io
+timestamp 1718205910
+transform 1 0 55900 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[19\].io
+timestamp 1718205910
+transform 1 0 66500 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[20\].io
+timestamp 1718205910
+transform 1 0 77100 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[21\].io
+timestamp 1718205910
+transform 1 0 87700 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[22\].io
+timestamp 1718205910
+transform 1 0 98300 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[23\].io
+timestamp 1718205910
+transform 1 0 108900 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[24\].io
+timestamp 1718205910
+transform 1 0 119500 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[25\].io
+timestamp 1718205910
+transform 1 0 130100 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[26\].io
+timestamp 1718205910
+transform 1 0 140700 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[27\].io
+timestamp 1718205910
+transform 1 0 151300 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[28\].io
+timestamp 1718205910
+transform 1 0 161900 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[29\].io
+timestamp 1718205910
+transform 1 0 172500 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[30\].io
+timestamp 1718205910
+transform 1 0 183100 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[31\].io
+timestamp 1718205910
+transform 1 0 193700 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[32\].io
+timestamp 1718205910
+transform 1 0 204300 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[33\].io
+timestamp 1718205910
+transform 1 0 214900 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[34\].io
+timestamp 1718205910
+transform 1 0 225500 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[35\].io
+timestamp 1718205910
+transform 1 0 236100 0 1 14000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[36\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 55900
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[37\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 66500
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[38\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 77100
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[39\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 87700
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[40\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 98300
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[41\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 108900
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[42\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 119500
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[43\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 130100
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[44\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 140700
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[45\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 151300
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[46\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 161900
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[47\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 172500
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[48\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 183100
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[49\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 193700
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[50\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 204300
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[51\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 214900
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[52\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 225500
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[53\].io
+timestamp 1718205910
+transform 0 -1 286000 1 0 236100
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[54\].io
+timestamp 1718205910
+transform 1 0 55900 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[55\].io
+timestamp 1718205910
+transform 1 0 66500 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[56\].io
+timestamp 1718205910
+transform 1 0 77100 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[57\].io
+timestamp 1718205910
+transform 1 0 87700 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[58\].io
+timestamp 1718205910
+transform 1 0 98300 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[59\].io
+timestamp 1718205910
+transform 1 0 108900 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[60\].io
+timestamp 1718205910
+transform 1 0 119500 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[61\].io
+timestamp 1718205910
+transform 1 0 130100 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[62\].io
+timestamp 1718205910
+transform 1 0 140700 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[63\].io
+timestamp 1718205910
+transform 1 0 151300 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[64\].io
+timestamp 1718205910
+transform 1 0 161900 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[65\].io
+timestamp 1718205910
+transform 1 0 172500 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[66\].io
+timestamp 1718205910
+transform 1 0 183100 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[67\].io
+timestamp 1718205910
+transform 1 0 193700 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[68\].io
+timestamp 1718205910
+transform 1 0 204300 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[69\].io
+timestamp 1718205910
+transform 1 0 214900 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[70\].io
+timestamp 1718205910
+transform 1 0 225500 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadAnalog  sg13g2_IOPad_analog_io\[71\].io
+timestamp 1718205910
+transform 1 0 236100 0 -1 286000
+box -62 0 8062 18000
+use sg13g2_IOPadIOVdd  sg13g2_IOPadIOVdd_east
+timestamp 1716382778
+transform 0 -1 286000 1 0 246700
+box -62 0 8062 17800
+use sg13g2_IOPadIOVdd  sg13g2_IOPadIOVdd_north
+timestamp 1716382778
+transform 1 0 246700 0 -1 286000
+box -62 0 8062 17800
+use sg13g2_IOPadIOVdd  sg13g2_IOPadIOVdd_south
+timestamp 1716382778
+transform 1 0 246700 0 1 14000
+box -62 0 8062 17800
+use sg13g2_IOPadIOVdd  sg13g2_IOPadIOVdd_west
+timestamp 1716382778
+transform 0 1 14000 1 0 246700
+box -62 0 8062 17800
+use sg13g2_IOPadIOVss  sg13g2_IOPadIOVss_east
+timestamp 1716382777
+transform 0 -1 286000 1 0 257300
+box -62 0 8062 17800
+use sg13g2_IOPadIOVss  sg13g2_IOPadIOVss_north
+timestamp 1716382777
+transform 1 0 257300 0 -1 286000
+box -62 0 8062 17800
+use sg13g2_IOPadIOVss  sg13g2_IOPadIOVss_south
+timestamp 1716382777
+transform 1 0 257300 0 1 14000
+box -62 0 8062 17800
+use sg13g2_IOPadIOVss  sg13g2_IOPadIOVss_west
+timestamp 1716382777
+transform 0 1 14000 1 0 257300
+box -62 0 8062 17800
+use sg13g2_IOPadVdd  sg13g2_IOPadVdd_east
+timestamp 1716382777
+transform 0 -1 286000 1 0 34700
+box -62 0 8062 17800
+use sg13g2_IOPadIOVdd  sg13g2_IOPadVdd_north
+timestamp 1716382778
+transform 1 0 34700 0 -1 286000
+box -62 0 8062 17800
+use sg13g2_IOPadVdd  sg13g2_IOPadVdd_south
+timestamp 1716382777
+transform 1 0 34700 0 1 14000
+box -62 0 8062 17800
+use sg13g2_IOPadVdd  sg13g2_IOPadVdd_west
+timestamp 1716382777
+transform 0 1 14000 1 0 34700
+box -62 0 8062 17800
+use sg13g2_IOPadVss  sg13g2_IOPadVss_east
+timestamp 1716382777
+transform 0 -1 286000 1 0 45300
+box -62 0 8062 17800
+use sg13g2_IOPadIOVss  sg13g2_IOPadVss_north
+timestamp 1716382777
+transform 1 0 45300 0 -1 286000
+box -62 0 8062 17800
+use sg13g2_IOPadVss  sg13g2_IOPadVss_south
+timestamp 1716382777
+transform 1 0 45300 0 1 14000
+box -62 0 8062 17800
+use sg13g2_IOPadVss  sg13g2_IOPadVss_west
+timestamp 1716382777
+transform 0 1 14000 1 0 45300
+box -62 0 8062 17800
+<< labels >>
+flabel metal7 s 7000 247200 14000 254200 0 FreeSans 51200 0 0 0 IOVDD
+port 0 nsew power input
+flabel metal7 s 247200 286000 254200 293000 0 FreeSans 51200 0 0 0 IOVDD
+port 1 nsew power input
+flabel metal7 s 35200 286000 42200 293000 0 FreeSans 51200 0 0 0 IOVDD
+port 2 nsew power input
+flabel metal7 s 286000 247200 293000 254200 0 FreeSans 51200 0 0 0 IOVDD
+port 3 nsew power input
+flabel metal7 s 247200 7000 254200 14000 0 FreeSans 51200 0 0 0 IOVDD
+port 4 nsew power input
+flabel metal7 s 7000 257800 14000 264800 0 FreeSans 51200 0 0 0 IOVSS
+port 5 nsew ground input
+flabel metal7 s 257800 286000 264800 293000 0 FreeSans 51200 0 0 0 IOVSS
+port 6 nsew ground input
+flabel metal7 s 45800 286000 52800 293000 0 FreeSans 51200 0 0 0 IOVSS
+port 7 nsew ground input
+flabel metal7 s 286000 257800 293000 264800 0 FreeSans 51200 0 0 0 IOVSS
+port 8 nsew ground input
+flabel metal7 s 257800 7000 264800 14000 0 FreeSans 51200 0 0 0 IOVSS
+port 9 nsew ground input
+flabel metal7 s 7000 35200 14000 42200 0 FreeSans 51200 0 0 0 VDD
+port 10 nsew power input
+flabel metal7 s 286000 35200 293000 42200 0 FreeSans 51200 0 0 0 VDD
+port 11 nsew power input
+flabel metal7 s 35200 7000 42200 14000 0 FreeSans 51200 0 0 0 VDD
+port 12 nsew power input
+flabel metal7 s 7000 45800 14000 52800 0 FreeSans 51200 0 0 0 VSS
+port 13 nsew ground input
+flabel metal7 s 286000 45800 293000 52800 0 FreeSans 51200 0 0 0 VSS
+port 14 nsew ground input
+flabel metal7 s 45800 7000 52800 14000 0 FreeSans 51200 0 0 0 VSS
+port 15 nsew ground input
+flabel metal7 s 7000 56400 14000 63400 0 FreeSans 51200 0 0 0 analog_io[0]
+port 16 nsew signal bidirectional
+flabel metal7 s 7000 162400 14000 169400 0 FreeSans 51200 0 0 0 analog_io[10]
+port 17 nsew signal bidirectional
+flabel metal7 s 7000 173000 14000 180000 0 FreeSans 51200 0 0 0 analog_io[11]
+port 18 nsew signal bidirectional
+flabel metal7 s 7000 183600 14000 190600 0 FreeSans 51200 0 0 0 analog_io[12]
+port 19 nsew signal bidirectional
+flabel metal7 s 7000 194200 14000 201200 0 FreeSans 51200 0 0 0 analog_io[13]
+port 20 nsew signal bidirectional
+flabel metal7 s 7000 204800 14000 211800 0 FreeSans 51200 0 0 0 analog_io[14]
+port 21 nsew signal bidirectional
+flabel metal7 s 7000 215400 14000 222400 0 FreeSans 51200 0 0 0 analog_io[15]
+port 22 nsew signal bidirectional
+flabel metal7 s 7000 226000 14000 233000 0 FreeSans 51200 0 0 0 analog_io[16]
+port 23 nsew signal bidirectional
+flabel metal7 s 7000 236600 14000 243600 0 FreeSans 51200 0 0 0 analog_io[17]
+port 24 nsew signal bidirectional
+flabel metal7 s 56400 7000 63400 14000 0 FreeSans 51200 0 0 0 analog_io[18]
+port 25 nsew signal bidirectional
+flabel metal7 s 67000 7000 74000 14000 0 FreeSans 51200 0 0 0 analog_io[19]
+port 26 nsew signal bidirectional
+flabel metal7 s 7000 67000 14000 74000 0 FreeSans 51200 0 0 0 analog_io[1]
+port 27 nsew signal bidirectional
+flabel metal7 s 77600 7000 84600 14000 0 FreeSans 51200 0 0 0 analog_io[20]
+port 28 nsew signal bidirectional
+flabel metal7 s 88200 7000 95200 14000 0 FreeSans 51200 0 0 0 analog_io[21]
+port 29 nsew signal bidirectional
+flabel metal7 s 98800 7000 105800 14000 0 FreeSans 51200 0 0 0 analog_io[22]
+port 30 nsew signal bidirectional
+flabel metal7 s 109400 7000 116400 14000 0 FreeSans 51200 0 0 0 analog_io[23]
+port 31 nsew signal bidirectional
+flabel metal7 s 120000 7000 127000 14000 0 FreeSans 51200 0 0 0 analog_io[24]
+port 32 nsew signal bidirectional
+flabel metal7 s 130600 7000 137600 14000 0 FreeSans 51200 0 0 0 analog_io[25]
+port 33 nsew signal bidirectional
+flabel metal7 s 141200 7000 148200 14000 0 FreeSans 51200 0 0 0 analog_io[26]
+port 34 nsew signal bidirectional
+flabel metal7 s 151800 7000 158800 14000 0 FreeSans 51200 0 0 0 analog_io[27]
+port 35 nsew signal bidirectional
+flabel metal7 s 162400 7000 169400 14000 0 FreeSans 51200 0 0 0 analog_io[28]
+port 36 nsew signal bidirectional
+flabel metal7 s 173000 7000 180000 14000 0 FreeSans 51200 0 0 0 analog_io[29]
+port 37 nsew signal bidirectional
+flabel metal7 s 7000 77600 14000 84600 0 FreeSans 51200 0 0 0 analog_io[2]
+port 38 nsew signal bidirectional
+flabel metal7 s 183600 7000 190600 14000 0 FreeSans 51200 0 0 0 analog_io[30]
+port 39 nsew signal bidirectional
+flabel metal7 s 194200 7000 201200 14000 0 FreeSans 51200 0 0 0 analog_io[31]
+port 40 nsew signal bidirectional
+flabel metal7 s 204800 7000 211800 14000 0 FreeSans 51200 0 0 0 analog_io[32]
+port 41 nsew signal bidirectional
+flabel metal7 s 215400 7000 222400 14000 0 FreeSans 51200 0 0 0 analog_io[33]
+port 42 nsew signal bidirectional
+flabel metal7 s 226000 7000 233000 14000 0 FreeSans 51200 0 0 0 analog_io[34]
+port 43 nsew signal bidirectional
+flabel metal7 s 236600 7000 243600 14000 0 FreeSans 51200 0 0 0 analog_io[35]
+port 44 nsew signal bidirectional
+flabel metal7 s 286000 56400 293000 63400 0 FreeSans 51200 0 0 0 analog_io[36]
+port 45 nsew signal bidirectional
+flabel metal7 s 286000 67000 293000 74000 0 FreeSans 51200 0 0 0 analog_io[37]
+port 46 nsew signal bidirectional
+flabel metal7 s 286000 77600 293000 84600 0 FreeSans 51200 0 0 0 analog_io[38]
+port 47 nsew signal bidirectional
+flabel metal7 s 286000 88200 293000 95200 0 FreeSans 51200 0 0 0 analog_io[39]
+port 48 nsew signal bidirectional
+flabel metal7 s 7000 88200 14000 95200 0 FreeSans 51200 0 0 0 analog_io[3]
+port 49 nsew signal bidirectional
+flabel metal7 s 286000 98800 293000 105800 0 FreeSans 51200 0 0 0 analog_io[40]
+port 50 nsew signal bidirectional
+flabel metal7 s 286000 109400 293000 116400 0 FreeSans 51200 0 0 0 analog_io[41]
+port 51 nsew signal bidirectional
+flabel metal7 s 286000 120000 293000 127000 0 FreeSans 51200 0 0 0 analog_io[42]
+port 52 nsew signal bidirectional
+flabel metal7 s 286000 130600 293000 137600 0 FreeSans 51200 0 0 0 analog_io[43]
+port 53 nsew signal bidirectional
+flabel metal7 s 286000 141200 293000 148200 0 FreeSans 51200 0 0 0 analog_io[44]
+port 54 nsew signal bidirectional
+flabel metal7 s 286000 151800 293000 158800 0 FreeSans 51200 0 0 0 analog_io[45]
+port 55 nsew signal bidirectional
+flabel metal7 s 286000 162400 293000 169400 0 FreeSans 51200 0 0 0 analog_io[46]
+port 56 nsew signal bidirectional
+flabel metal7 s 286000 173000 293000 180000 0 FreeSans 51200 0 0 0 analog_io[47]
+port 57 nsew signal bidirectional
+flabel metal7 s 286000 183600 293000 190600 0 FreeSans 51200 0 0 0 analog_io[48]
+port 58 nsew signal bidirectional
+flabel metal7 s 286000 194200 293000 201200 0 FreeSans 51200 0 0 0 analog_io[49]
+port 59 nsew signal bidirectional
+flabel metal7 s 7000 98800 14000 105800 0 FreeSans 51200 0 0 0 analog_io[4]
+port 60 nsew signal bidirectional
+flabel metal7 s 286000 204800 293000 211800 0 FreeSans 51200 0 0 0 analog_io[50]
+port 61 nsew signal bidirectional
+flabel metal7 s 286000 215400 293000 222400 0 FreeSans 51200 0 0 0 analog_io[51]
+port 62 nsew signal bidirectional
+flabel metal7 s 286000 226000 293000 233000 0 FreeSans 51200 0 0 0 analog_io[52]
+port 63 nsew signal bidirectional
+flabel metal7 s 286000 236600 293000 243600 0 FreeSans 51200 0 0 0 analog_io[53]
+port 64 nsew signal bidirectional
+flabel metal7 s 56400 286000 63400 293000 0 FreeSans 51200 0 0 0 analog_io[54]
+port 65 nsew signal bidirectional
+flabel metal7 s 67000 286000 74000 293000 0 FreeSans 51200 0 0 0 analog_io[55]
+port 66 nsew signal bidirectional
+flabel metal7 s 77600 286000 84600 293000 0 FreeSans 51200 0 0 0 analog_io[56]
+port 67 nsew signal bidirectional
+flabel metal7 s 88200 286000 95200 293000 0 FreeSans 51200 0 0 0 analog_io[57]
+port 68 nsew signal bidirectional
+flabel metal7 s 98800 286000 105800 293000 0 FreeSans 51200 0 0 0 analog_io[58]
+port 69 nsew signal bidirectional
+flabel metal7 s 109400 286000 116400 293000 0 FreeSans 51200 0 0 0 analog_io[59]
+port 70 nsew signal bidirectional
+flabel metal7 s 7000 109400 14000 116400 0 FreeSans 51200 0 0 0 analog_io[5]
+port 71 nsew signal bidirectional
+flabel metal7 s 120000 286000 127000 293000 0 FreeSans 51200 0 0 0 analog_io[60]
+port 72 nsew signal bidirectional
+flabel metal7 s 130600 286000 137600 293000 0 FreeSans 51200 0 0 0 analog_io[61]
+port 73 nsew signal bidirectional
+flabel metal7 s 141200 286000 148200 293000 0 FreeSans 51200 0 0 0 analog_io[62]
+port 74 nsew signal bidirectional
+flabel metal7 s 151800 286000 158800 293000 0 FreeSans 51200 0 0 0 analog_io[63]
+port 75 nsew signal bidirectional
+flabel metal7 s 162400 286000 169400 293000 0 FreeSans 51200 0 0 0 analog_io[64]
+port 76 nsew signal bidirectional
+flabel metal7 s 173000 286000 180000 293000 0 FreeSans 51200 0 0 0 analog_io[65]
+port 77 nsew signal bidirectional
+flabel metal7 s 183600 286000 190600 293000 0 FreeSans 51200 0 0 0 analog_io[66]
+port 78 nsew signal bidirectional
+flabel metal7 s 194200 286000 201200 293000 0 FreeSans 51200 0 0 0 analog_io[67]
+port 79 nsew signal bidirectional
+flabel metal7 s 204800 286000 211800 293000 0 FreeSans 51200 0 0 0 analog_io[68]
+port 80 nsew signal bidirectional
+flabel metal7 s 215400 286000 222400 293000 0 FreeSans 51200 0 0 0 analog_io[69]
+port 81 nsew signal bidirectional
+flabel metal7 s 7000 120000 14000 127000 0 FreeSans 51200 0 0 0 analog_io[6]
+port 82 nsew signal bidirectional
+flabel metal7 s 226000 286000 233000 293000 0 FreeSans 51200 0 0 0 analog_io[70]
+port 83 nsew signal bidirectional
+flabel metal7 s 236600 286000 243600 293000 0 FreeSans 51200 0 0 0 analog_io[71]
+port 84 nsew signal bidirectional
+flabel metal7 s 7000 130600 14000 137600 0 FreeSans 51200 0 0 0 analog_io[7]
+port 85 nsew signal bidirectional
+flabel metal7 s 7000 141200 14000 148200 0 FreeSans 51200 0 0 0 analog_io[8]
+port 86 nsew signal bidirectional
+flabel metal7 s 7000 151800 14000 158800 0 FreeSans 51200 0 0 0 analog_io[9]
+port 87 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 300000 300000
+<< end >>
