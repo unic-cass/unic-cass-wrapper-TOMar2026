@@ -60,34 +60,6 @@ module user_project_wrapper_2x2 (
     end
     endgenerate
 
-    //assign uo_CORE2PAD = ui_PAD2CORE; // Direct connection for testing
-
-    // Power/Ground IO pad instances
-    //(* keep *) sg13g2_IOPadVdd sg13g2_IOPadVdd_south ();
-    //(* keep *) sg13g2_IOPadVss sg13g2_IOPadVss_south ();
-//
-    //(* keep *) sg13g2_IOPadVdd sg13g2_IOPadVdd_east ();
-    //(* keep *) sg13g2_IOPadVss sg13g2_IOPadVss_east ();
-//
-    //(* keep *) sg13g2_IOPadIOVss sg13g2_IOPadVss_north ();
-    //(* keep *) sg13g2_IOPadIOVdd sg13g2_IOPadVdd_north ();
-//
-    //(* keep *) sg13g2_IOPadVdd sg13g2_IOPadVdd_west ();
-    //(* keep *) sg13g2_IOPadVss sg13g2_IOPadVss_west ();
-//
-    //// Power/Ground IO pad IO instances
-    //(* keep *) sg13g2_IOPadIOVdd sg13g2_IOPadIOVdd_south ();
-    //(* keep *) sg13g2_IOPadIOVss sg13g2_IOPadIOVss_south ();
-//
-    //(* keep *) sg13g2_IOPadIOVdd sg13g2_IOPadIOVdd_east ();
-    //(* keep *) sg13g2_IOPadIOVss sg13g2_IOPadIOVss_east ();
-//
-    //(* keep *) sg13g2_IOPadIOVdd sg13g2_IOPadIOVdd_north ();
-    //(* keep *) sg13g2_IOPadIOVss sg13g2_IOPadIOVss_north ();
-//
-    //(* keep *) sg13g2_IOPadIOVdd sg13g2_IOPadIOVdd_west ();
-    //(* keep *) sg13g2_IOPadIOVss sg13g2_IOPadIOVss_west ();
-
     sg13g2_IOPadIn sg13g2_IOPad_io_clock (
         `ifdef USE_POWER_PINS
         .vss    (VSS),
@@ -140,11 +112,14 @@ module user_project_wrapper_2x2 (
     end
     endgenerate
 
+    assign uo_CORE2PAD[16:1] = 16'd1; // needed for the example.
+
     user_project_example user_project_example_inst (
         .clk_i  (io_clock_p2c),
         .rst_ni (io_reset_p2c),
-        .ui_PAD2CORE (ui_PAD2CORE),
-        .uo_CORE2PAD (uo_CORE2PAD)
+        .y      (ui_PAD2CORE[0]),
+        .x      (ui_PAD2CORE[16:1]),
+        .p      (uo_CORE2PAD[0])
     );
 
 endmodule

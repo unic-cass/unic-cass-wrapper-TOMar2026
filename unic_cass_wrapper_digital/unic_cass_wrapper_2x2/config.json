@@ -33,8 +33,12 @@
 
     "USE_SLANG": true,
 
-    "EXTRA_GDS": "dir::bondpad/bondpad_70x70.gds",
-    "EXTRA_LEFS":"dir::bondpad/bondpad_70x70.lef",
+    "PAD_BONDPAD_NAME": "bondpad_70x70_novias",
+    "EXTRA_GDS": "dir::bondpad_70x70_novias/gds/bondpad_70x70_novias.gds",
+    "EXTRA_LEFS":"dir::bondpad_70x70_novias/lef/bondpad_70x70_novias.lef",
+    "IGNORE_DISCONNECTED_MODULES": [
+        "bondpad_70x70_novias"
+    ],
 
     "PAD_WEST": [
         "vdd_pads\\[0\\].vdd_pad",
@@ -43,11 +47,11 @@
         "sg13g2_IOPadIn_ui\\[1\\].ui",
         "sg13g2_IOPadIn_ui\\[2\\].ui",
         "sg13g2_IOPadIn_ui\\[3\\].ui",
+        "sg13g2_IOPad_io_reset",
+        "sg13g2_IOPad_io_clock",
         "sg13g2_IOPadIn_ui\\[4\\].ui",
         "sg13g2_IOPadIn_ui\\[5\\].ui",
         "sg13g2_IOPadIn_ui\\[6\\].ui",
-        "sg13g2_IOPadIn_ui\\[7\\].ui",
-        "sg13g2_IOPadIn_ui\\[8\\].ui",
         "iovdd_pads\\[0\\].iovdd_pad",
         "iovss_pads\\[0\\].iovss_pad"
     ],
@@ -55,6 +59,8 @@
     "PAD_SOUTH": [
         "vdd_pads\\[1\\].vdd_pad",
         "vss_pads\\[1\\].vss_pad",
+        "sg13g2_IOPadIn_ui\\[7\\].ui",
+        "sg13g2_IOPadIn_ui\\[8\\].ui",
         "sg13g2_IOPadIn_ui\\[9\\].ui",
         "sg13g2_IOPadIn_ui\\[10\\].ui",
         "sg13g2_IOPadIn_ui\\[11\\].ui",
@@ -62,8 +68,6 @@
         "sg13g2_IOPadIn_ui\\[13\\].ui",
         "sg13g2_IOPadIn_ui\\[14\\].ui",
         "sg13g2_IOPadIn_ui\\[15\\].ui",
-        "sg13g2_IOPadIn_ui\\[16\\].ui",
-        "sg13g2_IOPad_io_clock",
         "iovdd_pads\\[1\\].iovdd_pad",
         "iovss_pads\\[1\\].iovss_pad"
     ],
@@ -71,6 +75,7 @@
     "PAD_EAST": [
         "vdd_pads\\[2\\].vdd_pad",
         "vss_pads\\[2\\].vss_pad",
+        "sg13g2_IOPadIn_ui\\[16\\].ui",
         "sg13g2_IOPadOut30mA_uo\\[0\\].uo",
         "sg13g2_IOPadOut30mA_uo\\[1\\].uo",
         "sg13g2_IOPadOut30mA_uo\\[2\\].uo",
@@ -79,7 +84,6 @@
         "sg13g2_IOPadOut30mA_uo\\[5\\].uo",
         "sg13g2_IOPadOut30mA_uo\\[6\\].uo",
         "sg13g2_IOPadOut30mA_uo\\[7\\].uo",
-        "sg13g2_IOPadOut30mA_uo\\[8\\].uo",
         "iovdd_pads\\[2\\].iovdd_pad",
         "iovss_pads\\[2\\].iovss_pad"
     ],
@@ -87,6 +91,7 @@
     "PAD_NORTH": [
         "vdd_pads\\[3\\].vdd_pad",
         "vss_pads\\[3\\].vss_pad",
+        "sg13g2_IOPadOut30mA_uo\\[8\\].uo",
         "sg13g2_IOPadOut30mA_uo\\[9\\].uo",
         "sg13g2_IOPadOut30mA_uo\\[10\\].uo",
         "sg13g2_IOPadOut30mA_uo\\[11\\].uo",
@@ -95,7 +100,6 @@
         "sg13g2_IOPadOut30mA_uo\\[14\\].uo",
         "sg13g2_IOPadOut30mA_uo\\[15\\].uo",
         "sg13g2_IOPadOut30mA_uo\\[16\\].uo",
-        "sg13g2_IOPad_io_reset",
         "iovdd_pads\\[3\\].iovdd_pad",
         "iovss_pads\\[3\\].iovss_pad"
     ],
@@ -104,10 +108,6 @@
     "GND_NETS": ["VSS"],
 
     "GRT_ALLOW_CONGESTION": true,
-
-    "IGNORE_DISCONNECTED_MODULES": [
-        "bondpad_70x70"
-    ],
 
     "MACROS": {
             "user_project_example": {
