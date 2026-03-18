@@ -3,7 +3,6 @@
         "version": 3,
         "flow": "Classic",
         "substituting_steps":{
-            "KLayout.DRC": null,
             "Magic.DRC": null
         }
     },
